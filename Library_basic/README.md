@@ -79,7 +79,15 @@ user1.borrow_book('123')
 The main issue is that manually creating all the books in the library is **time-consuming**.
 
 ### :pushpin: First idea: Import from a CSV file
-A possible solution is to create a function that loads books from a CSV file. (*Under construction*)
+A possible solution is to create a function that loads books from a CSV file.
+We added a method called `library_from_csv` to fill the library with books from a csv file. The csv file contains three columns: title, author and ISBN. The default csv file (`Book_info.csv`) is available in the repository.
+
+#### :bulb: Example : Create a library from a csv file
+```python
+my_library = Library()
+my_library.library_from_csv()
+my_library.book_list()
+```
 
 ### :pushpin: Next step: Using an SQL database
 Even with a CSV file, we still need to **rebuild the entire library** each time, which remains inefficient. A better approach would be to use an SQL database to store and manage books dynamically.

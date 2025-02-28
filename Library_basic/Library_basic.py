@@ -1,5 +1,6 @@
 from difflib import get_close_matches
 import shortuuid
+import pandas as pd
 
 class Book:
 
@@ -16,7 +17,7 @@ class Book:
                 f" {self.status}")
 
 
-class Library:
+class Library():
 
     def __init__(self): # Define library object
         self.books = []
@@ -24,6 +25,12 @@ class Library:
     def add_book(self, book): # Add a book to the library
         self.books.append(book)
         return f"{book.title} added to the library"
+    
+    def library_from_csv(self, csvfile = 'Book_info.csv'):
+        csv_book = pd.read_csv(csvfile, encoding='cp1252')
+        for index, row in csv_book.iterrows():
+            book = Book(row['Title'], row['Author'], row['ISBN'])
+            self.books.append(book)
 
     def book_list(self):
         if not self.books:
@@ -68,7 +75,7 @@ class user:
         if user.library is None:
             raise ValueError('No library has been defined')
 
-    def borrow_book(self, ISBN):#, library): # Borrow a book
+    def borrow_book(self, ISBN): # Borrow a book
         self.error_library()
         book = next((b for b in self.library.books if b.ISBN == ISBN), None)
         if book and (book.status == 'available'):
@@ -80,7 +87,7 @@ class user:
         else:
             print("This book isn't in the library.")
 
-    def return_book(self, ISBN):#, library):
+    def return_book(self, ISBN): # Return a book
         self.error_library()
         if ISBN in self.borrow:
             book = next((b for b in self.library.books if b.ISBN == ISBN), None)
@@ -89,4 +96,3 @@ class user:
             print('You have return your book!')
         else:
             print("You didn't burrow this book.")
-
