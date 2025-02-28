@@ -10,10 +10,10 @@ class Book:
         self.status = 'available'
 
     def __str__(self):
-        return (f"Title : {self.title} by " 
+        print (f"Title : {self.title} by " 
                 f"Author : {self.author}: "
                 f"ISBN : {self.ISBN}"
-                f" {status}")
+                f" {self.status}")
 
 
 class Library:
@@ -90,33 +90,3 @@ class user:
         else:
             print("You didn't burrow this book.")
 
-
-# Create empty library
-my_library = Library()
-#library.book_list()
-
-
-# Fill library with books
-book1 = Book('Harry Potter and the philosopher s stone', 'J. K. Rowling', '147')
-my_library.add_book(book1)
-book2 = Book('Harry Potter and the chamber of secret', 'J. K. Rowling', '123')
-my_library.add_book(book2)
-book3 = Book('Wuthering Heights', 'Emily Bronte', '369')
-my_library.add_book(book3)
-book4 = Book('Jane Eyre', 'Charlotte Bronte', '987')
-my_library.add_book(book4)
-book5 = Book('My book', 'Hashan', '589')
-my_library.add_book(book5)
-#library.book_list()
-
-# Test search functions
-#library.find_author('River')
-#library.find_title('Harry Potter')
-
-
-# Create user and borrow books
-#user.library = my_library
-user1 = user('Marine', 'Tanya')
-user1.borrow_book('123')
-user2 = user('Nicolas', 'Touboul')
-user2.borrow_book('123')
