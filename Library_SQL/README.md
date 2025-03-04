@@ -1,0 +1,59 @@
+# Library featuring SQL database
+
+When we first built our library project, it was clear that initialising the library each time was time-consuming. Therefore, we decided to create a database to store all books and user information. This allows us to update the database using SQL queries (to borrow and return books) or through a Python script.
+
+## Requirements
+For the database, I used **SQL Server Managament Studio (SSMS) 20**.
+
+## :notebook: The database
+
+The database consists of three tables
+- Book
+- Users
+- Borrow
+
+### Book table
+
+The **Book table** contains the following columns:
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| `BookID` | `INT PRIMARY KEY` | Unique identifier for each book |
+| `Title` | `VARCHAR(255)` | Title of the book |
+| `Author` | `VARCHAR(255)` | First author of the book |
+| `ISBN` | `VARCHAR(13)` | ISBN number |
+| `Available` | `BIT DEFAULT 1` | Indicates if the book is available (1) or borrowed (0) |
+
+By default, all books are marked as available.
+
+### Users table
+
+The **users table** contains the following columns:
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| `UserID` | `UNIQUEIDENTIFYER PRIMARY KEY DEFAULT NEWID()` | Generates an unique ID for each user |
+| `FirstName` | `VARCHAR(255)` | User's first name |
+| `LastName` | `VARCHAR(255)` | User's last name |
+
+### Borrow
+
+The **Borrow table** tracks borrowed books:
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| `UserID` | `UNIQUEIDENTIFYER` | Generates an unique ID for each user |
+| `BookID` | `INT` | User's first name |
+| `BorrowDate` | `DATE DEFAULT GETDATE()` | Borrowed date (automatically filled) |
+| `ReturnDate` | `DATE DEFAULT DATEADD(DAY, 21, GETDATE())` | Due date (21 days after borrowing) |
+
+### Implementation
+
+A script to create the database (if it does not already exist) is available in the repository.
+
+To use it with **SSMS**:
+
+1. Open SQL Server Management Studio.
+2. Connect to your database server.
+3. Open the script file.
+4. Click Execute to run the script.
