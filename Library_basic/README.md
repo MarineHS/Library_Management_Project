@@ -2,6 +2,12 @@
 
 This script represents the **first design** of this project.
 
+## Requirements
+
+I used a Python3 environment to run the script. You may need to install the following packages :
+- pandas
+- shortuuid
+
 ## :hammer:  Functionalities  
 
 This version includes **three main classes**:  
