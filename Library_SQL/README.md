@@ -57,3 +57,5 @@ To use it with **SSMS**:
 2. Connect to your database server.
 3. Open the script file.
 4. Click Execute to run the script.
+
+Once the database is created, you can get an overview of the tables in SSMS by going to the Tables folder, right-clicking on a table (e.g., dbo.Book), and selecting "Select Top 1000 Rows".
