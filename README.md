@@ -11,8 +11,10 @@ The aim of this project is to:
 
 ## Project Structure  
 This project is divided into three folders, each representing a stage of development:  
-- **`Library_basic`** → Initial version focusing on OOP principles.  
+- **`Library_basic`** -> Initial version focusing on OOP principles.  
+- **`Library_SQL`** -> Create and manage a library database with SQL queries.
 
 
 Each folder contains a **README.md** detailing its functionalities and providing code examples.  
 
+Web interface is under construction :construction:
