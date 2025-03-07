@@ -5,14 +5,14 @@ When we first built our library project, it was clear that initialising the libr
 ## Requirements
 For the database, I used **SQL Server Managament Studio (SSMS) 20**.
 
-## :notebook: The database
+## :file_cabinet: The database
 
 The database consists of three tables
 - Book
 - Users
 - Borrow
 
-### Book table
+### :books: Book table
 
 The **Book table** contains the following columns:
 
@@ -26,7 +26,7 @@ The **Book table** contains the following columns:
 
 By default, all books are marked as available.
 
-### Users table
+### :bust_in_silhouette: Users table
 
 The **users table** contains the following columns:
 
@@ -35,8 +35,9 @@ The **users table** contains the following columns:
 | `UserID` | `UNIQUEIDENTIFYER PRIMARY KEY DEFAULT NEWID()` | Generates an unique ID for each user |
 | `FirstName` | `VARCHAR(255)` | User's first name |
 | `LastName` | `VARCHAR(255)` | User's last name |
+| `Mail` | `VARCHAR(255)` | User's email address |
 
-### Borrow
+### :bookmark: Borrow
 
 The **Borrow table** tracks borrowed books:
 
@@ -47,7 +48,7 @@ The **Borrow table** tracks borrowed books:
 | `BorrowDate` | `DATE DEFAULT GETDATE()` | Borrowed date (automatically filled) |
 | `ReturnDate` | `DATE DEFAULT DATEADD(DAY, 21, GETDATE())` | Due date (21 days after borrowing) |
 
-### Implementation
+### :hammer: Implementation
 
 A script to create the database (if it does not already exist) is available in the repository.
 
@@ -55,7 +56,28 @@ To use it with **SSMS**:
 
 1. Open SQL Server Management Studio.
 2. Connect to your database server.
-3. Open the script file.
+3. Open the `Library_DB.sql` script file.
 4. Click Execute to run the script.
 
 Once the database is created, you can get an overview of the tables in SSMS by going to the Tables folder, right-clicking on a table (e.g., dbo.Book), and selecting "Select Top 1000 Rows".
+
+## :clipboard: Library management
+
+Now that the database is created, you can open the second script, which contains various queries useful for managing the library. The queries unable to:
+
+### :broom: Data Cleaning & Integrity
+- Find missing data and update them
+- Identify duplicated books and remove them
+
+### :bar_chart: Library Management
+- Add a book if it is not already in the library
+- Record when a user borrows a book and mark the book as unavailable
+- Record when a user returns a book and mark the book as available
+
+### :chart_with_upwards_trend: Library Insights
+- Count the number of books currently borrowed
+- List the books currently borrowed and the users who borrowed them
+- List the books borrowed by a specific user
+- List overdue books
+
+Feel free to test each query independently and modify them according to your needs.
