@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>{{ book.title }} - Details</title>
+</head>
+<body>
+    <h1>{{ book.title }}</h1>
+    <p><strong>Author:</strong> {{ book.author }}</p>
+    <p><strong>ISBN:</strong> {{ book.isbn }}</p>
+    <p><strong>Summary:</strong> {{ book.summary }}</p>
+
+    {% if book.cover %}
+    <img src="{{ book.cover.url }}" alt="Cover image of {{ book.title }}">
+    {% endif %}
+
+    <p>
+        <strong>Status:</strong>
+        {% if book.available %}
+        Available
+        {% else %}
+        Not Available
+        {% endif %}
+    </p>
+
+    <a href="{% url 'Catalog:book_search' %}">Back to Search</a>
+</body>
+</html>

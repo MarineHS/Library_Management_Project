@@ -1,0 +1,11 @@
+<h1>{{ book.title }}</h1>
+<h3>by {{ book.author }}</h3>
+<p>{{ book.summary }}</p>
+{% if book.cover %}
+    <img src="{{ book.cover.url }}" alt="Cover image">
+{% endif %}
+{% if book.available %}
+    <p>This book is available for borrowing.</p>
+{% else %}
+    <p>This book is currently not available.</p>
+{% endif %}
