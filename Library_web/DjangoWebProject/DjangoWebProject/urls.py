@@ -25,7 +25,12 @@ urlpatterns = [
     # Uncomment the next line to enable the admin:
     path('admin/', admin.site.urls),
     # Add application URL
-    path('Catalog/', include('Catalog.urls'))
+    path('Catalog/', include('Catalog.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
+
 ] 
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
