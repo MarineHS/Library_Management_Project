@@ -1,0 +1,147 @@
+[
+    {
+        "model": "users.customuser",
+        "pk": 1,
+        "fields":{
+            "first_name": "Emma",
+            "last_name": "Dupont",
+            "date_birth": "2011-01-09",
+            "email": "emma.dupont@mail.com",
+            "password": "pbkdf2_sha256$600000$QJ2ilkcePWqimCOQfiBJCK$lhIs5BtaTCEdUgTyHdr8fPf9PLpybpJ+C6VpMq6GcgA="
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 2,
+        "fields":{
+            "first_name": "Louis",
+            "last_name": "Moreau",
+            "date_birth": "1999-10-04",
+            "email": "louis.moreau@mail.com",
+            "password": "pbkdf2_sha256$600000$0pFlRTDuP180MYkZVHHFzM$ckk4Qb2Ok6vTWLnNFsovO+irpkXPe56AauZqaLsEmk4="
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 3,
+        "fields":{
+            "first_name": "Camille",
+            "last_name": "Lefevre",
+            "date_birth": "1975-06-07",
+            "email": "camille.lefevre@mail.com",
+            "password": "pbkdf2_sha256$600000$h54WKa7MPo3CBs7aZuXDve$hTMvgS9pc7yL2FnQvR8q/oS8ey5u1PyhDyXxbqoCJqE="
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 4,
+        "fields":{
+            "first_name": "Nicolas",
+            "last_name": "Carpentier",
+            "date_birth": "1996-01-08",
+            "email": "nicolas.carpentier@mail.com",
+            "password": "pbkdf2_sha256$600000$QV9FUo8XqpdmgaUf1tZ8XQ$zvtkH6OzPnQIQKBTKEDG7ADo8Ue2byBb8/TElAYwlZQ=",
+            "is_staff": true
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Murder on the Orient Express",
+            "author": "Agatha Christie",
+            "isbn": "9780062073501",
+            "summary": "Just after midnight, a snowdrift stops the famous Orient Express in its tracks as it travels through the mountainous Balkans. The luxurious train is surprisingly full for the time of the year but, by the morning, it is one passenger fewer. An American tycoon lies dead in his compartment, stabbed a dozen times, his door locked from the inside. \nOne of the passengers is none other than detective Hercule Poirot. On vacation. \nIsolated and with a killer on board, Poirot must identify the murderer—in case he or she decides to strike again.",
+            "cover": "/media/covers/MurderOrientExpress.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Death on the Nile",
+            "author": "Agatha Christie",
+            "isbn": "9780008386825",
+            "summary": "The tranquility of a lovely cruise along the Nile is shattered by the discovery that Linnet Ridgeway has been shot. She was young, stylish and beautiful, a girl who had everything until she lost her life. \nWho is also on board? Christie's great detective Hercule Poirot is on holiday. He recalls an earlier outburst by a fellow passenger: ‘I’d like to put my dear little pistol against her head and just press the trigger.’ Despite the exotic setting, nothing is ever quite what it seems…",
+            "cover": "/media/covers/DeathNile.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Watchmen",
+            "author": "Alan Moore",
+            "isbn": "9781779501127",
+            "summary": "Watchmen, the groundbreaking series from award-winning author Alan Moore and Dave Gibbons, presents a world where the mere presence of American superheroes changed history, the U.S. won the Vietnam War, Nixon is still president, and the Cold War is in full effect.",
+            "cover": "/media/covers/Watchmen.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The stranger",
+            "author": "Albert Camus",
+            "isbn": "9780679720201",
+            "summary": "Published in 1942 by French author Albert Camus, The Stranger has long been considered a classic of twentieth-century literature. Le Monde ranks it as number one on its '100 Books of the Century' list. Through this story of an ordinary man unwittingly drawn into a senseless murder on a sundrenched Algerian beach, Camus explores what he termed 'the nakedness of man faced with the absurd.' ",
+            "cover": "/media/covers/Stranger.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The plague",
+            "author": "Albert Camus",
+            "isbn": "9780679720218",
+            "summary": "The book tells a gripping tale of human unrelieved horror, of survival and resilience, and of the ways in which humankind confronts death, The Plague is at once a masterfully crafted novel, eloquently understated and epic in scope, and a parable of ageless moral resonance, profoundly relevant to our times. In Oran, a coastal town in North Africa, the plague begins as a series of portents, unheeded by the people. It gradually becomes an omnipresent reality, obliterating all traces of the past and driving its victims to almost unearthly extremes of suffering, madness, and compassion.",
+            "cover": "/media/covers/Plague.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "isbn": "9780060850524",
+            "summary": "Aldous Huxley's profoundly important classic of world literature, Brave New World is a searching vision of an unequal, technologically-advanced future where humans are genetically bred, socially indoctrinated, and pharmaceutically anesthetized to passively uphold an authoritarian ruling order, all at the cost of our freedom, full humanity, and perhaps also our souls. “A genius [who] who spent his life decrying the onward march of the Machine” (The New Yorker), Huxley was a man of incomparable talents: equally an artist, a spiritual seeker, and one of history’s keenest observers of human nature and civilization. Brave New World, his masterpiece, has enthralled and terrified millions of readers, and retains its urgent relevance to this day as both a warning to be heeded as we head into tomorrow and as thought-provoking, satisfying work of literature. Written in the shadow of the rise of fascism during the 1930s, Brave New Worldd likewise speaks to a 21st-century world dominated by mass-entertainment, technology, medicine and pharmaceuticals, the arts of persuasion, and the hidden influence of elites.",
+            "cover": "/media/covers/BraveNewWorld.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Silent Patient",
+            "author": "Alex Michaelis",
+            "isbn": "9781250301703",
+            "summary": "Alicia Berenson’s life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London’s most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word. \nAlicia’s refusal to talk, or give any kind of explanation, turns a domestic tragedy into something far grander, a mystery that captures the public imagination and casts Alicia into notoriety. The price of her art skyrockets, and she, the silent patient, is hidden away from the tabloids and spotlight at the Grove, a secure forensic unit in North London. \nTheo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him....",
+            "cover": "/media/covers/SilentPatient.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Count of Monte Cristo",
+            "author": "Alexandre Dumas",
+            "isbn": "9780140449266",
+            "summary": "Thrown in prison for a crime he has not committed, Edmond Dantès is confined to the grim fortress of If. There he learns of a great hoard of treasure hidden on the Isle of Monte Cristo and he becomes determined not only to escape, but also to use the treasure to plot the destruction of the three men responsible for his incarceration. Dumas’ epic tale of suffering and retribution, inspired by a real-life case of wrongful imprisonment, was a huge popular success when it was first serialized in the 1840s.",
+            "cover": "/media/covers/CountMonteCristo.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Three Musketeers",
+            "author": "Alexandre Dumas",
+            "isbn": "9781853260407",
+            "summary": "When d’Artagnan goes to Paris to become a Musketeer, he embarks on a swashbuckling adventure with the legendary Porthos, Athos, and Aramis. If they wish to trump the nefarious Cardinal Richelieu, it’s got to be 'all for one, one for all.'",
+            "cover": "/media/covers/ThreeMusketeers.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Midwife of Berlin",
+            "author": "Anna Stuart",
+            "isbn": "9781837907427",
+            "summary": "Auschwitz, 1943: I stroke my beautiful baby’s hair. It’s a miracle it’s blonde because it will keep her alive, it will keep her safe. Soon they will come and take Pippa out of Auschwitz-Birkenau, and out of my arms. But while there’s life, there’s hope I might find my daughter again… \nAn incredible story of one woman’s courage and determination to reunite her family in the aftermath of surviving Auschwitz. \n1945, Ester Pasternak walked out of the gates of Auschwitz barely alive. She survived against devastating odds, but her heartbreaking journey is only just beginning. In the camp, Ester gave birth to a tiny fair-haired infant, only for her precious baby to be snatched from her and taken to a German family. Now the war is over, Ester longs to find her little girl. \nBut Europe is in chaos, Jewish families have been torn apart and everyone is desperately searching for their loved ones. In every orphanage and hospital she visits, Ester searches the faces of tear-stained toddlers; each mop of blonde hair and pair of blue eyes she sees sets her heart racing… \nBut as the months and the years tick by, the possibility of finding her daughter shrinks smaller and smaller. And Ester starts to wonder if little Pippa is even safe, or whether the miracle that saved her has now put her in even more danger? \nWill Ester ever be able to find the child whose tattoo matches her own? Or is she already too late…",
+            "cover": "/media/covers/MidwifeBerlin.jpeg"
+        }
+    }
+]

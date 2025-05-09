@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     #Added Apps
     'Catalog.apps.CatalogConfig',
-    'users.apps.usersConfig'
+    'users.apps.UsersConfig'
 ]
 
 # Middleware framework
@@ -118,6 +118,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 
+# Add media file for cover image
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+# Add CustomUser for authentification
+AUTH_USER_MODEL = 'users.CustomUser'
+
+# Create Primary Key when not defined
+DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
