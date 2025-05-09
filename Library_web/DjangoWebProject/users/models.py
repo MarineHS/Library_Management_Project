@@ -1,53 +1,49 @@
 from django.db import models
-from catalog.models import Book
-from shortuuidfield import ShortUUIDField
-from django.utils.timezone import now
+from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.base_user import BaseUserManager
 
+#Change superuser
+class CustomUserManager(BaseUserManager):
+    use_in_migrations = True
 
-# Contain informations for each users
-class LibraryUser(models.Model):
-    firstname = models.CharField(max_length = 255)
-    lastname = models.CharField(max_length = 255)
-    # If the mail is already registred in the data base, raise an error message
-    mail = models.EmailField(unique=True)
-    # Create a unique random ID for each users
-    userID = ShortUUIDField(primary_key=True)
+    def create_user(self, email, password=None, **extra_fields):
+        if not email:
+            raise ValueError('An email address is required')
+        email = self.normalize_email(email)
+        user = self.model(email=email, **extra_fields)
+        user.set_password(password)
+        user.save(using=self._db)
+        return user
 
-    # Override __str__ function
+    def create_superuser(self, email, password, **extra_fields):
+        extra_fields.setdefault('is_staff', True)
+        extra_fields.setdefault('is_superuser', True)
+        extra_fields.setdefault('is_active', True)
+
+        if extra_fields.get('is_staff') is not True:
+            raise ValueError('Superuser requires is_staff=True.')
+        if extra_fields.get('is_superuser') is not True:
+            raise ValueError('Superuser requires is_superuser=True.')
+
+        return self.create_user(email, password, **extra_fields)
+
+# User model with authentification by email
+class CustomUser(AbstractUser):
+    username = None
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+    date_birth = models.DateField()
+    email = models.EmailField(unique=True)
+    is_staff = models.BooleanField(default=False)
+
+    USERNAME_FIELD = "email"
+    REQUIRED_FIELDS = [
+        "first_name",
+        "last_name",
+        "date_birth"
+        ]
+
+    objects = CustomUserManager()
+
     def __str__(self):
-        return f'{self.firstname} {self.lastname}'
-
-class BorrowBook(models.Model):
-    book = models.OneToOneField(Book, to_field='isbn', on_delete=models.CASCADE, primary_key=True)
-    user = models.ForeignKey(LibraryUser, to_field='userID', on_delete=models.CASCADE)
-    borrow_date = models.DateTimeField(auto_now_add=True)
-    return_date = models.DateTimeField(null=True, blank=True)
-
-    def __str__(self):
-        return f'{self.book.title} \t {self.LibraryUser.mail}'
-
-    # Set return_date and update Book.available
-    def set_return_date(self):
-        if not self.return_date:
-            self.return_date = self.borrow_date + timedelta(days=21)
-            self.book.available = False
-
-        self.book.save()
-        self.save()
-
-    # Mark a book as available and delete the entry from the BorrowBook Table
-    def return_book(self, isbn):
-        if self.book.isbn == isbn:
-            self.book.available = True
-            self.book.save()
-            BorrowBook.objects.filter(book__isbn==isbn).delete()
-
-    # Get the list of books not returned after duedate and the person who borrowed it
-    def late_books_list(self):
-        late_borrows = BorrowBook.objects.filter(return_date__lt=now())
-        if late_borrows.exists():
-            print("Late Books: ")
-        for borrow in late_borrows:
-            print(f'{borrow.user.firstname} {borrow.user.lastname} did not return "{borrow.book.title}" on time! (Due: {borrow.return_date.date()})')
-        else:
-            return(None)
+        return f"{self.first_name} {self.last_name} - {self.email}"
