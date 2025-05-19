@@ -38,5 +38,6 @@ class BorrowBookAdmin(admin.ModelAdmin):
     def response_add(self, request, obj, post_url_continue=None):
         return self.response_post_save_add(request, obj)
 
-    list_display = ['isbn', 'user', 'borrow_date', 'return_date']
+    list_display = ('isbn', 'user', 'borrow_date', 'return_date')
+    autocomplete_fields = ('isbn', 'user')
     actions = [mark_as_returned]  
