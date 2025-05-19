@@ -1,5 +1,6 @@
 from django.db import models
 from datetime import datetime, timedelta
+from django.core.exceptions import ValidationError
 
 # Create your models here.
 class BorrowBook(models.Model):
@@ -8,18 +9,11 @@ class BorrowBook(models.Model):
     borrow_date = models.DateTimeField(auto_now_add=True)
     return_date = models.DateTimeField(default= datetime.now() + timedelta(days=21))
 
-    #Override __str__ function
+    # Override __str__ function
     def __str__(self):
         return f'{self.isbn.title} by {self.user.email}'
 
-    def save(self, *args, **kwargs):
-        if not self.pk: # Check if book is already borrowed
-            if not self.isbn.available:
-                raise ValidationError("This book is already borrowed.")
-            self.isbn.available = False # If not, mark the book as borrowed
-            self.isbn.save()
-        super().save(*args, **kwargs)
-
+    # Remove entry from BorrowBook when book is returned and mark it as available
     def return_book(self):
         self.isbn.available = True # Mark book as available
         self.isbn.save() 
