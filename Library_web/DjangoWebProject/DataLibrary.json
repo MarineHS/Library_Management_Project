@@ -140,8 +140,1388 @@
             "title": "The Midwife of Berlin",
             "author": "Anna Stuart",
             "isbn": "9781837907427",
-            "summary": "Auschwitz, 1943: I stroke my beautiful baby’s hair. It’s a miracle it’s blonde because it will keep her alive, it will keep her safe. Soon they will come and take Pippa out of Auschwitz-Birkenau, and out of my arms. But while there’s life, there’s hope I might find my daughter again… \nAn incredible story of one woman’s courage and determination to reunite her family in the aftermath of surviving Auschwitz. \n1945, Ester Pasternak walked out of the gates of Auschwitz barely alive. She survived against devastating odds, but her heartbreaking journey is only just beginning. In the camp, Ester gave birth to a tiny fair-haired infant, only for her precious baby to be snatched from her and taken to a German family. Now the war is over, Ester longs to find her little girl. \nBut Europe is in chaos, Jewish families have been torn apart and everyone is desperately searching for their loved ones. In every orphanage and hospital she visits, Ester searches the faces of tear-stained toddlers; each mop of blonde hair and pair of blue eyes she sees sets her heart racing… \nBut as the months and the years tick by, the possibility of finding her daughter shrinks smaller and smaller. And Ester starts to wonder if little Pippa is even safe, or whether the miracle that saved her has now put her in even more danger? \nWill Ester ever be able to find the child whose tattoo matches her own? Or is she already too late…",
+            "summary": "Auschwitz, 1943: I stroke my beautiful baby’s hair. It’s a miracle it’s blonde because it will keep her alive, it will keep her safe. Soon they will come and take Pippa out of Auschwitz-Birkenau, and out of my arms. But while there’s life, there’s hope I might find my daughter again… \n1945, Ester Pasternak walked out of the gates of Auschwitz barely alive. She survived against devastating odds, but her heartbreaking journey is only just beginning. In the camp, Ester gave birth to a tiny fair-haired infant, only for her precious baby to be snatched from her and taken to a German family. Now the war is over, Ester longs to find her little girl. \nBut Europe is in chaos, Jewish families have been torn apart and everyone is desperately searching for their loved ones. In every orphanage and hospital she visits, Ester searches the faces of tear-stained toddlers; each mop of blonde hair and pair of blue eyes she sees sets her heart racing… \nBut as the months and the years tick by, the possibility of finding her daughter shrinks smaller and smaller. And Ester starts to wonder if little Pippa is even safe, or whether the miracle that saved her has now put her in even more danger? \nWill Ester ever be able to find the child whose tattoo matches her own? Or is she already too late…",
             "cover": "/media/covers/MidwifeBerlin.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Midwife of Auschwitz",
+            "author": "Anna Stuart",
+            "isbn": "9781538767825",
+            "summary": "Auschwitz, 1943: As I held the tiny baby in my arms, my fingers traced the black tattoo etched across her little thigh. And I prayed that one day this set of numbers, identical to her mother’s, would have the power to reunite a family torn apart by war. \nAna Kaminski is pushed through the iron gates of Auschwitz beside her frightened young friend Ester Pasternak. As they reach the front of the line, Ana steps forward and quietly declares herself a midwife – and Ester her assistant. Their arms are tattooed and they’re ordered to the maternity hut. Holding an innocent new-born baby, Ana knows the fate of so many are in her hands, and vows to do everything she can to save them. \nWhen two guards in their chilling SS uniforms march in and snatch a blond-haired baby from its mother it’s almost too much for Ana to bear. Consoling the distraught woman, Ana realises amidst the terrible heartache there is a glimmer of hope. The guards are taking the healthiest babies and placing them with German families, so they will survive. And there are whispers the war is nearly over… Ana and Ester begin to secretly tattoo little ones with their mother’s numbers, praying one day they might be reunited. \nThen, early one morning, Ana notices the small bump under Ester’s thin striped clothing…",
+            "cover": "/media/covers/MidwifeAuschwitz.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The tenant of Wildfell Hall",
+            "author": "Anne Bronte",
+            "isbn": "9781853264887",
+            "summary": "Gilbert Markham is deeply intrigued by Helen Graham, a beautiful and secretive young woman who has moved into nearby Wildfell Hall with her young son. He is quick to offer Helen his friendship, but when her reclusive behaviour becomes the subject of local gossip and speculation, Gilbert begins to wonder whether his trust in her has been misplaced. It is only when she allows Gilbert to read her diary that the truth is revealed and the shocking details of the disastrous marriage she has left behind emerge. Told with great immediacy, combined with wit and irony, The Tenant of Wildfell Hall is a powerful depiction of a woman's fight for domestic independence and creative freedom.",
+            "cover": "/media/covers/WildfellHall.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Little Prince",
+            "author": "Antoine de St Exupery",
+            "isbn": "9780156012195",
+            "summary": "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. 'Please,' asks the stranger, 'draw me a sheep.' And the pilot realizes that when life's events are too difficult to understand, there is no choice but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readers.",
+            "cover": "/media/covers/LittlePrince.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Adventures of Sherlock Holmes",
+            "author": "Arthur Conan Doyle",
+            "isbn": "9781607102113",
+            "summary": "There is one literary detective who stands above all others, whose powers of deduction are known the world over, whose influence can still be felt in today's most modern whodunits. Who is it, you ask? Why, it's elementary! Sherlock Holmes, the famous gumshoe of 221B Baker Street. ",
+            "cover": "/media/covers/SherlockHolmes.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Hound of the Baskervilles",
+            "author": "Arthur Conan Doyle",
+            "isbn": "9780451528018",
+            "summary": "In this, one of the most famous of Doyle's mysteries, the tale of an ancient curse and a savage ghostly hound comes frighteningly to life. The gray towers of Baskerville Hall and the wild open country of Dartmoor will haunt the reader as Holmes and Watson seek to unravel the many secrets of the misty English bogs.",
+            "cover": "/media/covers/HoundBaskervilles.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Study in Scarlet",
+            "author": "Arthur Conan Doyle",
+            "isbn": "9798372793774",
+            "summary": "Our first meeting with Sherlock Holmes. And John Watson's too! They meet at the start of this volume, and the young doctor is astonished by Holmes' many idiosyncrasies, including his talents on the violin. \nBut it's not long before Sherlock Holmes, with Watson in tow, is working with Scotland Yard investigating the murder of two Americans whose deaths have some mysterious connection to sinister groups gathering power in both Britain and America. \nHere's where it all began. 'A Study in Scarlet.' Meet Sherlock Holmes, one of the world's leading consulting detectives - fictional of course!",
+            "cover": "/media/covers/StudyScarlet.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Sign of Four",
+            "author": "Arthur Conan Doyle",
+            "isbn": "9781482741674",
+            "summary": "A dense yellow miasma swirls in the streets of London as Sherlock Holmes and Dr Watson accompany a beautiful young woman to a sinister assignation. \nFor Mary Marston has received several large pearls - one a year for the last six years - and now a mystery letter telling her she is a wronged woman. If she would seek justice she is to meet her unknown benefactor, bringing with her two companions. \nBut unbeknownst to them all, others stalk London's fog-enshrouded streets: a one-legged ruffian with revenge on his mind - and his companion, who places no value on human life...",
+            "cover": "/media/covers/SignFour.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Return of Sherlock Holmes",
+            "author": "Arthur Conan Doyle",
+            "isbn": "9781853260582",
+            "summary": "After Sherlock Holmes' apparently fatal encounter with the sinister Professor Moriarty at the Reichenbach Falls, the great detective reappears, to the delight of the faithful Dr Watson in The Adventures of the Empty House.",
+            "cover": "/media/covers/ReturnSherlockHolmes.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Dracula",
+            "author": "Bram Stocker",
+            "isbn": "9781400344185",
+            "summary": "When Jonathan Harker visits Transylvania to help Count Dracula with the purchase of a London house, he makes a series of horrific discoveries about his client. Soon afterwards, various bizarre incidents unfold in England: an apparently unmanned ship is wrecked off the coast of Whitby; a young woman discovers strange puncture marks on her neck; and the inmate of a lunatic asylum raves about the 'Master' and his imminent arrival.",
+            "cover": "/media/covers/Dracula.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Lion, the witch and the wardrobe",
+            "author": "C.S. Lewis",
+            "isbn": "9780064404990",
+            "summary": "Narnia… the land beyond the wardrobe door, a secret place frozen in eternal winter, a magical country waiting to be set free. \nLucy is the first to find the secret of the wardrobe in the professor's mysterious old house. At first her brothers and sister don't believe her when she tells of her visit to the land of Narnia. But soon Edmund, then Peter and Susan step through the wardrobe themselves. In Narnia they find a country buried under the evil enchantment of the White Witch. When they meet the Lion Aslan, they realize they've been called to a great adventure and bravely join the battle to free Narnia from the Witch's sinister spell.",
+            "cover": "/media/covers/LionWitchWardrobe.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Horse and his boy",
+            "author": "C.S. Lewis",
+            "isbn": "9780060234881",
+            "summary": "The Horse and his Boy is a stirring and dramatic fantasy story that finds a young boy named Shasta on the run from his homeland with the talking horse, Bree. When the pair discover a deadly plot by the Calormen people to conquer the land of Narnia, the race is on to warn the inhabitants of the impending danger and to rescue them all from certain death.",
+            "cover": "/media/covers/HorseBoy.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Prince Caspian",
+            "author": "C.S. Lewis",
+            "isbn": "9780064471053",
+            "summary": "Narnia . . . where animals talk . . . where trees walk . . . where a battle is about to begin. \nA prince denied his rightful throne gathers an army in a desperate attempt to rid his land of a false king. But in the end, it is a battle of honor between two men alone that will decide the fate of an entire world.",
+            "cover": "/media/covers/PrinceCaspian.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Silver Chair",
+            "author": "C.S. Lewis",
+            "isbn": "9780064471091",
+            "summary": "NARNIA...where owls are wise, where some of the giants like to snack on humans, where a prince is put under an evil spell...and where the adventure begins. \nEustace and Jill escape from the bullies at school through a strange door in the wall, which, for once, is unlocked. It leads to the open moor...or does it? Once again Aslan has a task for the children, and Narnia needs them. Through dangers untold and caverns deep and dark, they pursue the quest that brings them face to face with the evil Witch. She must be defeated if Prince Rillian is to be saved.",
+            "cover": "/media/covers/SilverChair.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Voyage of the Dawn Treader",
+            "author": "C.S. Lewis",
+            "isbn": "9780064405027",
+            "summary": "NARNIA... the world of wicked dragons and magic spells, where the very best is brought out of even the worst people, where anything can happen (and most often does)... and where the adventure begins. \nThe Dawn Treader is the first ship Narnia has seen in centuries. King Caspian has built it for his voyage to find the seven lords, good men whom his evil uncle Miraz banished when he usurped the throne. The journey takes Edmund, Lucy, and their cousin Eustace to the Eastern Islands, beyond the Silver Sea, toward Aslan's country at the End of the World.",
+            "cover": "/media/covers/VoyageDawnTreader.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Last Battle",
+            "author": "C.S. Lewis",
+            "isbn": "9780064471084",
+            "summary": "NARNIA... where dwarfs are loyal and tough and strong—or are they? ...where you must say goodbye... and where the adventure begins again. \nThe unicorn says that humans are brought to Narnia when Narnia is stirred and upset. And Narnia is in trouble now: A false Aslan roams the land. Narnia's only hope is that Eustace and Jill, old friends to Narnia, will be able to find the true Aslan and restore peace to the land. Their task is a difficult one because, as the Centaur says, 'The stars never lie, but Men and Beasts do.' Who is the real Aslan and who is the imposter?",
+            "cover": "/media/covers/LastBattle.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Christmas Carol",
+            "author": "Charles Dickens",
+            "isbn": "9781441339706",
+            "summary": "Settle into the season with A Christmas Carol. Charles Dickens's timeless novella tells the story of Ebenezer Scrooge, an old miser who learns the value of kindness and generosity thanks to visits from the Ghosts of Christmas Past, Present, and Yet to Come.",
+            "cover": "/media/covers/ChristmasCarol.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Great Expectations",
+            "author": "Charles Dickens",
+            "isbn": "9780141040363",
+            "summary": "Pip doesn't expect much from life...His sister makes it clear that her orphaned little brother is nothing but a burden on her. But suddenly things begin to change. Pip's narrow existence is blown apart when he finds an escaped criminal, is summoned to visit a mysterious old woman and meets the icy beauty Estella. Most astoundingly of all, an anonymous person gives him money to begin a new life in London. \nAre these events as random as they seem? Or does Pip's fate hang on a series of coincidences he could never have expected?",
+            "cover": "/media/covers/GreatExpectations.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Tale of Two Cities",
+            "author": "Charles Dickens",
+            "isbn": "9781435171480",
+            "summary": "A Tale of Two Cities is Charles Dickens’s great historical novel, set against the violent upheaval of the French Revolution. The most famous and perhaps the most popular of his works, it compresses an event of immense complexity to the scale of a family history, with a cast of characters that includes a bloodthirsty ogress and an antihero as believably flawed as any in modern fiction. Though the least typical of the author’s novels, A Tale of Two Cities still underscores many of his enduring themes—imprisonment, injustice, social anarchy, resurrection, and the renunciation that fosters renewal.",
+            "cover": "/media/covers/TaleTwoCities.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Bleak House",
+            "author": "Charles Dickens",
+            "isbn": "9780141439723",
+            "summary": "As the interminable case of ‘Jarndyce and Jarndyce’ grinds its way through the Court of Chancery, it draws together a disparate group of people: Ada and Richard Clare, whose inheritance is gradually being devoured by legal costs; Esther Summerson, a ward of court, whose parentage is a source of deepening mystery; the menacing lawyer Tulkinghorn; the determined sleuth Inspector Bucket; and even Jo, the destitute little crossing-sweeper. A savage, but often comic, indictment of a society that is rotten to the core, Bleak House is one of Dickens’s most ambitious novels, with a range that extends from the drawing rooms of the aristocracy to the poorest of London slums. This edition follows the first book edition of 1853, and includes all the original illustrations by ‘Phiz’, as well as appendices on the Chancery and spontaneous combustion. In his preface, Terry Eagleton examines characterisation and considers Bleak House as an early work of detective fiction.",
+            "cover": "/media/covers/BleakHouse.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Oliver Twist",
+            "author": "Charles Dickens",
+            "isbn": "9780141439747",
+            "summary": "The story of the orphan Oliver, who runs away from the workhouse to be taken in by a den of thieves, shocked readers with its depiction of a dark criminal underworld peopled by vivid and memorable characters - the arch-villain Fagin, the artful Dodger, the menacing Bill Sikes and the prostitute Nancy. Combining elements of Gothic romance, the Newgate novel and popular melodrama, Oliver Twist created an entirely new kind of fiction, scathing in its indictment of a cruel society and pervaded by an unforgettable sense of threat and mystery.",
+            "cover": "/media/covers/OliverTwist.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "David Copperfield",
+            "author": "Charles Dickens",
+            "isbn": "9780140439441",
+            "summary": "David Copperfield is the story of a young man's adventures on his journey from an unhappy and impoverished childhood to the discovery of his vocation as a successful novelist. Among the gloriously vivid cast of characters he encounters are his tyrannical stepfather, Mr Murdstone; his brilliant, but ultimately unworthy school-friend Steerforth; his formidable aunt, Betsey Trotwood; the eternally humble, yet treacherous Uriah Heep; frivolous, enchanting Dora; and the magnificently impecunious Micawber, one of literature's great comic creations. In David Copperfield - the novel he described as his 'favourite child' - Dickens drew revealingly on his own experiences to create one of the most exuberant and enduringly popular works, filled with tragedy and comedy in equal measure.",
+            "cover": "/media/covers/DavidCopperfield.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Our Mutual Friend",
+            "author": "Charles Dickens",
+            "isbn": "9780140434972",
+            "summary": "Our Mutual Friend centres on an inheritance - Old Harmon's profitable dust heaps - and its legatees, young John Harmon, presumed drowned when a body is pulled out of the River Thames, and kindly dustman Mr Boffin, to whom the fortune defaults. With brilliant satire, Dickens portrays a dark, macabre London, inhabited by such disparate characters as Gaffer Hexam, scavenging the river for corpses; enchanting, mercenary Bella Wilfer; the social-climbing Veneerings; and the unscrupulous street-trader Silas Wegg. The novel is richly symbolic in its vision of death and renewal in a city dominated by the fetid Thames, and the corrupting power of money.",
+            "cover": "/media/covers/MutualFriend.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Jane Eyre",
+            "author": "Charlotte Bronte",
+            "isbn": "9780141441146",
+            "summary": "Charlotte Brontë tells the story of orphaned Jane Eyre, who grows up in the home of her heartless aunt, enduring loneliness and cruelty. This troubled childhood strengthens Jane's natural independence and spirit - which prove necessary when she finds employment as a governess to the young ward of Byronic, brooding Mr Rochester. As her feelings for Rochester develop, Jane gradually uncovers Thornfield Hall's terrible secret, forcing her to make a choice. Should she stay with Rochester and live with the consequences, or follow her convictions - even if it means leaving the man she loves? A novel of intense power and intrigue, Jane Eyre dazzled readers with its passionate depiction of a woman's search for equality and freedom.",
+            "cover": "/media/covers/JaneEyre.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Hollow Crown",
+            "author": "Dan Jones",
+            "isbn": "9780571288083",
+            "summary": "The fifteenth century experienced the longest and bloodiest series of civil wars in British history. The crown of England changed hands violently five times as the great families of England fought to the death for the right to rule. Some of the greatest heroes and villains in history were thrown together in these chaotic years. Yet efforts were made to maintain some semblance of peace and order, as chivalry was reborn, the printing press arrived, and the Renaissance began to flourish.",
+            "cover": "/media/covers/HollowCrown.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Templars: The Rise and Spectacular Fall of God s Holy Warriors",
+            "author": "Dan Jones",
+            "isbn": "9780143108962",
+            "summary": "In 1119, a small band of knights seeking a purpose in the violent aftermath of the First Crusade set up a new religious order in Jerusalem, which was now in Christian hands. These were the first Knights Templar, elite warriors who swore vows of poverty and chastity and promised to protect Christian pilgrims to the Holy Land. Over the next 200 years, the Templars would become the most powerful network of the medieval world, speerheading the crusades, pionerring new forms of finance and warfare and deciding the fate of kings. Then, on October 13, 1307, hundreds of brothers were arrested, imprisoned and tortured and the order was disbanded among lurid accusations of sexual misconduct and heresy. But were they heretics or victims of a ruthlessly repressive state? Dan Jones goes back to the sources to bring their dramatic tale, so relevant to our own times, to life in a book that is at once authoritative and compulsively readable.",
+            "cover": "/media/covers/Templars.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Plantagenets: The Warrior Kings and Queens Who Made England",
+            "author": "Dan Jones",
+            "isbn": "9780143124924",
+            "summary": "A stunning achievement that brings one of the most tumultuous and fascinating periods of British history to life, The Plantagenets transports readers to the era of chivalry and the Crusades, the Black Death and the Hundred Years War. The first Plantagenet king inherited a broken, bloodsoaked realm from the Normans and transformed it into an empire that would stretch at its peak from Scotland to Jerusalem. His descendants and their fiery queens, including Eleanor of Aquitaine, Richard the Lionheart, Edward II, and King John, shaped England into the country we recognize today and gave it many of the laws, contracts, and bodies of governance—like Parliament and the Magna Carta—that would shape our own nation.",
+            "cover": "/media/covers/Plantagenets.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Wager: A Tale of Shipwreck, Mutiny and Murder",
+            "author": "David Grann",
+            "isbn": "9780385534260",
+            "summary": "On January 28, 1742, a ramshackle vessel of patched-together wood and cloth washed up on the coast of Brazil. Inside were thirty emaciated men, barely alive, and they had an extraordinary tale to tell. They were survivors of His Majesty's Ship the Wager, a British vessel that had left England in 1740 on a secret mission during an imperial war with Spain. While the Wager had been chasing a Spanish treasure-filled galleon known as 'the prize of all the oceans', it had wrecked on a desolate island off the coast of Patagonia. The men, after being marooned for months and facing starvation, built the flimsy craft and sailed for more than a hundred days, traversing nearly 3,000 miles of storm-wracked seas. They were greeted as heroes. \nBut then . . . six months later, another, even more decrepit craft landed on the coast of Chile. This boat contained just three castaways, and they told a very different story. The thirty sailors who landed in Brazil were not heroes - they were mutineers. The first group responded with countercharges of their own, of a tyrannical and murderous senior officer and his henchmen. It became clear that while stranded on the island the crew had fallen into anarchy, with warring factions fighting for dominion over the barren wilderness. As accusations of treachery and murder flew, the Admiralty convened a court martial to determine who was telling the truth. The stakes were life-and-death--for whomever the court found guilty could hang.",
+            "cover": "/media/covers/Wager.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Wuthering Heights",
+            "author": "Emily Bronte",
+            "isbn": "9781853260018",
+            "summary": "Set on the stormy moors of northern England, this classic novel is filled with the cruel and ecstatic love between the characters Heathcliff and Catherine. As they grow together as children and later as lovers, the conflicts of class and an all-consuming passion overwhelm the inhabitants of Wuthering Heights.",
+            "cover": "/media/covers/WutheringHeights.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "All Quiet on the Western Front",
+            "author": "Erich Maria Remarque",
+            "isbn": "9781324006930",
+            "summary": "This story is told by a young soldier in the trenches of Flanders during the First World War. Through his eyes we see the realities of war. Incidents are vividly described, but there is no sense of adventure, only the feeling of youth betrayed.",
+            "cover": "/media/covers/QuietWesternFront.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Lost Bookshop",
+            "author": "Evie  Woods",
+            "isbn": "9780008609214",
+            "summary": "The Keeper of Stories meets The Lost Apothecary in this evocative and charming novel full of mystery and secrets. \n‘The thing about books,’ she said ‘is that they help you to imagine a life bigger and better than you could ever dream of.’ \nOn a quiet street in Dublin, a lost bookshop is waiting to be found… \nFor too long, Opaline, Martha and Henry have been the side characters in their own lives. \nBut when a vanishing bookshop casts its spell, these three unsuspecting strangers will discover that their own stories are every bit as extraordinary as the ones found in the pages of their beloved books. And by unlocking the secrets of the shelves, they find themselves transported to a world of wonder… where nothing is as it seems.",
+            "cover": "/media/covers/LostBookshop.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Crime and Punishment",
+            "author": "Fyodor Dostoevsky",
+            "isbn": "9780679734505",
+            "summary": "Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator, Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his neck. Only Sonya, a downtrodden sex worker, can offer the chance of redemption.",
+            "cover": "/media/covers/CrimePunishment.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Phantom of the Opera",
+            "author": "Gaston Leroux",
+            "isbn": "9781998667246",
+            "summary": "First published in French as a serial in 1909, The Phantom of the Opera is a riveting story that revolves around the young, Swedish Christine Daaé. Her father, a famous musician, dies, and she is raised in the Paris Opera House with his dying promise of a protective angel of music to guide her. After a time at the opera house, she begins hearing a voice, who eventually teaches her how to sing beautifully. All goes well until Christine's childhood friend Raoul comes to visit his parents, who are patrons of the opera, and he sees Christine when she begins successfully singing on the stage. The voice, who is the deformed, murderous 'ghost' of the opera house named Erik, however, grows violent in his terrible jealousy, until Christine suddenly disappears. The phantom is in love, but it can only spell disaster.",
+            "cover": "/media/covers/PhantomOpera.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Canterbury Tales",
+            "author": "Geoffrey Chaucer",
+            "isbn": "9780140424386",
+            "summary": "The procession that crosses Chaucer's pages is as full of life and as richly textured as a medieval tapestry. The Knight, the Miller, the Friar, the Squire, the Prioress, the Wife of Bath, and others who make up the cast of characters -- including Chaucer himself -- are real people, with human emotions and weaknesses. When it is remembered that Chaucer wrote in English at a time when Latin was the standard literary language across western Europe, the magnitude of his achievement is even more remarkable. But Chaucer's genius needs no historical introduction; it bursts forth from every page of The Canterbury Tales.",
+            "cover": "/media/covers/CanterburyTale.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Game of Thrones",
+            "author": "George R.R. Martin",
+            "isbn": "9780553103540",
+            "summary": "Long ago, in a time forgotten, a preternatural event threw the seasons out of balance. In a land where summers can last decades and winters a lifetime, trouble is brewing. The cold is returning, and in the frozen wastes to the north of Winterfell, sinister forces are massing beyond the kingdom’s protective Wall. To the south, the king’s powers are failing—his most trusted adviser dead under mysterious circumstances and his enemies emerging from the shadows of the throne. At the center of the conflict lie the Starks of Winterfell, a family as harsh and unyielding as the frozen land they were born to. Now Lord Eddard Stark is reluctantly summoned to serve as the king’s new Hand, an appointment that threatens to sunder not only his family but the kingdom itself. \nSweeping from a harsh land of cold to a summertime kingdom of epicurean plenty, A Game of Thrones tells a tale of lords and ladies, soldiers and sorcerers, assassins and bastards, who come together in a time of grim omens. Here an enigmatic band of warriors bear swords of no human metal; a tribe of fierce wildlings carry men off into madness; a cruel young dragon prince barters his sister to win back his throne; a child is lost in the twilight between life and death; and a determined woman undertakes a treacherous journey to protect all she holds dear. Amid plots and counter-plots, tragedy and betrayal, victory and terror, allies and enemies, the fate of the Starks hangs perilously in the balance, as each side endeavors to win that deadliest of conflicts: the game of thrones.",
+            "cover": "/media/covers/GameThrone.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Clash of King",
+            "author": "George R.R. Martin",
+            "isbn": "9780345535412",
+            "summary": "A comet the color of blood and flame cuts across the sky. And from the ancient citadel of Dragonstone to the forbidding shores of Winterfell, chaos reigns. Six factions struggle for control of a divided land and the Iron Throne of the Seven Kingdoms, preparing to stake their claims through tempest, turmoil, and war. It is a tale in which brother plots against brother and the dead rise to walk in the night. Here a princess masquerades as an orphan boy; a knight of the mind prepares a poison for a treacherous sorceress; and wild men descend from the Mountains of the Moon to ravage the countryside. Against a backdrop of incest and fratricide, alchemy and murder, victory may go to the men and women possessed of the coldest steel . . . and the coldest hearts. For when kings clash, the whole land trembles.",
+            "cover": "/media/covers/ClashKing.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Storm of Swords",
+            "author": "George R.R. Martin",
+            "isbn": "9780553381702",
+            "summary": "Of the five contenders for power, one is dead, another in disfavor, and still the wars rage as violently as ever, as alliances are made and broken. Joffrey, of House Lannister, sits on the Iron Throne, the uneasy ruler of the land of the Seven Kingdoms. His most bitter rival, Lord Stannis, stands defeated and disgraced, the victim of the jealous sorceress who holds him in her evil thrall. But young Robb, of House Stark, still rules the North from the fortress of Riverrun. Robb plots against his despised Lannister enemies, even as they hold his sister hostage at King’s Landing, the seat of the Iron Throne. Meanwhile, making her way across a blood-drenched continent is the exiled queen, Daenerys, mistress of the only three dragons still left in the world. . . . \nBut as opposing forces maneuver for the final titanic showdown, an army of barbaric wildlings arrives from the outermost line of civilization. In their vanguard is a horde of mythical Others—a supernatural army of the living dead whose animated corpses are unstoppable. As the future of the land hangs in the balance, no one will rest until the Seven Kingdoms have exploded in a veritable storm of swords. . .",
+            "cover": "/media/covers/StormSword.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Dance with Dragons",
+            "author": "George R.R. Martin",
+            "isbn": "9780553385953",
+            "summary": "In the aftermath of a colossal battle, the future of the Seven Kingdoms hangs in the balance—beset by newly emerging threats from every direction. In the east, Daenerys Targaryen, the last scion of House Targaryen, rules with her three dragons as queen of a city built on dust and death. But Daenerys has thousands of enemies, and many have set out to find her. As they gather, one young man embarks upon his own quest for the queen, with an entirely different goal in mind. \nFleeing from Westeros with a price on his head, Tyrion Lannister, too, is making his way to Daenerys. But his newest allies in this quest are not the rag-tag band they seem, and at their heart lies one who could undo Daenerys’s claim to Westeros forever. \nMeanwhile, to the north lies the mammoth Wall of ice and stone—a structure only as strong as those guarding it. There, Jon Snow, 998th Lord Commander of the Night’s Watch, will face his greatest challenge. For he has powerful foes not only within the Watch but also beyond, in the land of the creatures of ice. \nFrom all corners, bitter conflicts reignite, intimate betrayals are perpetrated, and a grand cast of outlaws and priests, soldiers and skinchangers, nobles and slaves, will face seemingly insurmountable obstacles. Some will fail, others will grow in the strength of darkness. But in a time of rising restlessness, the tides of destiny and politics will lead inevitably to the greatest dance of all.",
+            "cover": "/media/covers/DanceDragons.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Feast for Crows",
+            "author": "George R.R. Martin",
+            "isbn": "9780553582024",
+            "summary": "Bloodthirsty, treacherous and cunning, the Lannisters are in power on the Iron Throne in the name of the boy-king Tommen. The war in the Seven Kingdoms has burned itself out, but in its bitter aftermath new conflicts spark to life. \nThe Martells of Dorne and the Starks of Winterfell seek vengeance for their dead. Euron Crow's Eye, as black a pirate as ever raised a sail, returns from the smoking ruins of Valyria to claim the Iron Isles. From the icy north, where Others threaten the Wall, apprentice Maester Samwell Tarly brings a mysterious babe in arms to the Citadel. \nAgainst a backdrop of incest and fratricide, alchemy and murder, victory will go to the men and women possessed of the coldest steel and the coldest hearts.",
+            "cover": "/media/covers/FeastCrow.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "1984",
+            "author": "Georges Orwell",
+            "isbn": "9786257287401",
+            "summary": "A masterpiece of rebellion and imprisonment where war is peace freedom is slavery and Big Brother is watching. Thought Police, Big Brother, Orwellian - these words have entered our vocabulary because of George Orwell's classic dystopian novel 1984. The story of one man's Nightmare Odyssey as he pursues a forbidden love affair through a world ruled by warring states and a power structure that controls not only information but also individual thought and memory 1984 is a prophetic haunting tale More relevant than ever before 1984 exposes the worst crimes imaginable the destruction of truth freedom and individuality.",
+            "cover": "/media/covers/1984.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Animal Farm",
+            "author": "Georges Orwell",
+            "isbn": "9798308399124",
+            "summary": "A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned –a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible.",
+            "cover": "/media/covers/AnimalFarm.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Madame Bovary",
+            "author": "Gustave Flaubert",
+            "isbn": "9780143106494",
+            "summary": "Madame Bovary is the debut novel of French writer Gustave Flaubert, published in 1856. The character lives beyond her means in order to escape the banalities and emptiness of provincial life. When the novel was first serialized in La Revue de Paris between 1 October 1856 and 15 December 1856, public prosecutors attacked the novel for obscenity. The resulting trial in January 1857 made the story notorious. After Flaubert's acquittal on 7 February 1857, Madame Bovary became a bestseller in April 1857 when it was published in two volumes. A seminal work of literary realism, the novel is now considered Flaubert's masterpiece, and one of the most influential literary works in history.",
+            "cover": "/media/covers/MmeBovary.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Time Marchine",
+            "author": "H. G. Wells",
+            "isbn": "9780553213515",
+            "summary": "When the Time Traveller courageously stepped out of his machine for the first time, he found himself in the year 802,700--and everything had changed. In this unfamiliar, utopian age creatures seemed to dwell together in perfect harmony. The Time Traveller thought he could study these marvelous beings--unearth their secret and then return to his own time--until he discovered that his invention, his only avenue of escape, had been stolen.",
+            "cover": "/media/covers/TimeMachine.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The War of the Worlds",
+            "author": "H. G. Wells",
+            "isbn": "9781953649164",
+            "summary": "When an army of invading Martians lands in England, panic and terror seize the population. As the aliens traverse the country in huge three-legged machines, incinerating all in their path with a heat ray and spreading noxious toxic gases, the people of the Earth must come to terms with the prospect of the end of human civilization and the beginning of Martian rule.",
+            "cover": "/media/covers/WarWorlds.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "isbn": "9780060935467",
+            "summary": "One of the best-loved stories of all time, To Kill a Mockingbird has been translated into more than forty languages, sold more than forty million copies worldwide, served as the basis for an enormously popular motion picture, and was voted one of the best novels of the twentieth century by librarians across the country. A gripping, heart-wrenching, and wholly remarkable coming-of-age tale in a South poisoned by virulent prejudice, it views a world of great beauty and savage iniquities through the eyes of a young girl, as her father — a crusading local lawyer — risks everything to defend a black man unjustly accused of a terrible crime.",
+            "cover": "/media/covers/KillMockingbird.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Moby Dick or the Whale",
+            "author": "Herman Melville",
+            "isbn": "9780143105954",
+            "summary": "On a previous voyage, a mysterious white whale had ripped off the leg of a sea captain named Ahab. Now the crew of the Pequod, on a pursuit that features constant adventure and horrendous mishaps, must follow the mad Ahab into the abyss to satisfy his unslakeable thirst for vengeance. Narrated by the cunningly observant crew member Ishmael, Moby-Dick is the tale of the hunt for the elusive, omnipotent, and ultimately mystifying white whale—Moby Dick. On its surface, Moby-Dick is a vivid documentary of life aboard a nineteenth-century whaler, a virtual encyclopedia of whales and whaling, replete with facts, legends, and trivia that Melville had gleaned from personal experience and scores of sources. But as the quest for the whale becomes increasingly perilous, the tale works on allegorical levels, likening the whale to human greed, moral consequence, good, evil, and life itself. Who is good? The great white whale who, like Nature, asks nothing but to be left in peace? Or the bold Ahab who, like scientists, explorers, and philosophers, fearlessly probes the mysteries of the universe? Who is evil? The ferocious, man-killing sea monster? Or the revenge-obsessed madman who ignores his own better nature in his quest to kill the beast?",
+            "cover": "/media/covers/MobyDick.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Hobbit",
+            "author": "J. R. R. Tolkien",
+            "isbn": "9780547928227",
+            "summary": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum.",
+            "cover": "/media/covers/Hobbit.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Fellowship of the Ring",
+            "author": "J. R. R. Tolkien",
+            "isbn": "9780547928210",
+            "summary": "In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit. In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose.",
+            "cover": "/media/covers/FellowshipRing.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Return of the King",
+            "author": "J. R. R. Tolkien",
+            "isbn": "9780547928197",
+            "summary": "The Return of the King is the third part of J.R.R. Tolkien’s epic adventure The Lord of the Rings. \nOne Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them. \nThe Dark Lord has risen, and as he unleashes hordes of Orcs to conquer all Middle-earth, Frodo and Sam struggle deep into his realm in Mordor. \nTo defeat Sauron, the One Ring must be destroyed in the fires of Mount Doom. But the way is impossibly hard, and Frodo is weakening. The Ring corrupts all who bear it and Frodo’s time is running out. \nWill Sam and Frodo succeed, or will the Dark Lord rule Middle-earth once more?",
+            "cover": "/media/covers/ReturnKing.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Two Towers",
+            "author": "J. R. R. Tolkien",
+            "isbn": "9780007203550",
+            "summary": "The Two Towers is the second part of J.R.R. Tolkien’s epic adventure The Lord of the Rings. \nOne Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them. \nFrodo and his Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. They have lost the wizard, Gandalf, in a battle in the Mines of Moria. And Boromir, seduced by the power of the Ring, tried to seize it by force. While Frodo and Sam made their escape, the rest of the company was attacked by Orcs. Now they continue the journey alone down the great River Anduin—alone, that is, save for the mysterious creeping figure that follows wherever they go.",
+            "cover": "/media/covers/TwoTowers.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Silmarillion",
+            "author": "J. R. R. Tolkien",
+            "isbn": "9780063280779",
+            "summary": "The Silmarilli were three perfect jewels, fashioned by Fëanor, most gifted of the Elves, and within them was imprisoned the last Light of the Two Trees of Valinor. But the first Dark Lord, Morgoth, stole the jewels and set them within his iron crown, guarded in the impenetrable fortress of Angband in the north of Middle-earth. \nThe Silmarillion is the history of the rebellion of Fëanor and his kindred against the gods, their exile from Valinor and return to Middle-earth, and their war, hopeless despite all the heroism, against the great Enemy. It is the ancient drama to which the characters in The Lord of the Rings look back, and in whose events some of them such as Elrond and Galadriel took part.",
+            "cover": "/media/covers/Silmarillion.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Volunteer: The True Story of the Resistance Hero who Infiltrated Auschwitz",
+            "author": "Jack Fairweather",
+            "isbn": "9780062561534",
+            "summary": "To uncover the fate of the thousands being interred at a mysterious Nazi camp on the border of the Reich, a thirty-nine-year-old Polish resistance fighter named Witold Pilecki volunteered for an audacious mission: assume a fake identity, intentionally get captured and sent to the new camp, and then report back to the underground on what had happened to his compatriots there. But gathering information was not his only task: he was to execute an attack from inside—where the Germans would least expect it. \nThe name of the camp was Auschwitz. \nOver the next two and half years, Pilecki forged an underground army within Auschwitz that sabotaged facilities, assassinated Nazi informants and officers, and gathered evidence of terrifying abuse and mass murder. But as he pieced together the horrifying truth that the camp was to become the epicenter of Nazi plans to exterminate Europe’s Jews, Pilecki realized he would have to risk his men, his life, and his family to warn the West before all was lost. To do so, meant attempting the impossible—an escape from Auschwitz itself. \nCompletely erased from the historical record by Poland’s post-war Communist government, Pilecki remains almost unknown to the world. Now, with exclusive access to previously hidden diaries, family and camp survivor accounts, and recently declassified files, Jack Fairweather offers an unflinching portrayal of survival, revenge and betrayal in mankind’s darkest hour. And in uncovering the tragic outcome of Pilecki’s mission, he reveals that its ultimate defeat originated not in Auschwitz or Berlin, but in London and Washington.",
+            "cover": "/media/covers/Volunteer.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Call of the Wild",
+            "author": "Jack London",
+            "isbn": "9781954839144",
+            "summary": "The domesticated life of a powerful St. Bernard-Shepherd mix named Buck is quickly turned on end when he is stolen away from his master and put to work as a sled dog in Alaska. His once life of luxury turns into a life of survival and adaptation as he learns the ways of the wilderness.",
+            "cover": "/media/covers/CallWild.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "isbn": "9780141439518",
+            "summary": "When Elizabeth Bennet first meets eligible bachelor Fitzwilliam Darcy, she thinks him arrogant and conceited, while he struggles to remain indifferent to her good looks and lively mind. When she later discovers that Darcy has involved himself in the troubled relationship between his friend Bingley and her beloved sister Jane, she is determined to dislike him more than ever.",
+            "cover": "/media/covers/PridePrejudice.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Persuasion",
+            "author": "Jane Austen",
+            "isbn": "9780141439686",
+            "summary": "At twenty-seven, Anne Elliot is no longer young and has few romantic prospects. Eight years earlier, she had been persuaded by her friend Lady Russell to break off her engagement to Frederick Wentworth, a handsome naval captain with neither fortune nor rank. What happens when they encounter each other again is movingly told in Jane Austen’s last completed novel. Set in the fashionable societies of Lyme Regis and Bath, Persuasion is a brilliant satire of vanity and pretension, but, above all, it is a love story tinged with the heartache of missed opportunities.",
+            "cover": "/media/covers/Persuasion.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Emma",
+            "author": "Jane Austen",
+            "isbn": "9780141439587",
+            "summary": "Beautiful, clever, rich—and single—Emma Woodhouse is perfectly content with her life and sees no need for either love or marriage. Nothing, however, delights her more than interfering in the romantic lives of others. But when she ignores the warnings of her good friend Mr. Knightley and attempts to arrange a suitable match for her protegee Harriet Smith, her carefully laid plans soon unravel and have consequences that she never expected.",
+            "cover": "/media/covers/Emma.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Mansfield Park",
+            "author": "Jane Austen",
+            "isbn": "9780141439808",
+            "summary": "Fanny Price is accustomed to being the poor relation at Mansfield Park, the home of her wealthy plantation-owning uncle. She finds comfort in her love for her cousin Edmund, until the arrival or charismatic outsiders from London throws life at the house into disarray and brings dangerous desires to the surface. Jane Austen's profound, troubling third novel is her most complex work; a powerful portrayal of change and continuity, scandalous misdemeanours and true integrity.",
+            "cover": "/media/covers/MansfieldPark.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Northanger Abbey",
+            "author": "Jane Austen",
+            "isbn": "9781727082395",
+            "summary": "The story's unlikely heroine is Catherine Morland, a remarkably innocent seventeen-year-old woman from a country parsonage. While spending a few weeks in Bath with a family friend, Catherine meets and falls in love with Henry Tilney, who invites her to visit his family estate, Northanger Abbey. Once there, Catherine, a great reader of Gothic thrillers, lets the shadowy atmosphere of the old mansion fill her mind with terrible suspicions. What is the mystery surrounding the death of Henry's mother? Is the family concealing a terrible secret within the elegant rooms of the Abbey? Can she trust Henry, or is he part of an evil conspiracy? Catherine finds dreadful portents in the most prosaic events, until Henry persuades her to see the peril in confusing life with art.",
+            "cover": "/media/covers/NorthangerAbbey.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Get Well Soon: History s Worst Plagues and the Heroes Who Fought Them",
+            "author": "Jennifer Wright",
+            "isbn": "9781627797467",
+            "summary": "In 1518, in a small town in Alsace, Frau Troffea began dancing and didn’t stop. She danced until she was carried away six days later, and soon thirty-four more villagers joined her. Then more. In a month more than 400 people had been stricken by the mysterious dancing plague. In late-seventeenth-century England an eccentric gentleman founded the No Nose Club in his gracious townhome―a social club for those who had lost their noses, and other body parts, to the plague of syphilis for which there was then no cure. And in turn-of-the-century New York, an Irish cook caused two lethal outbreaks of typhoid fever, a case that transformed her into the notorious Typhoid Mary. \nThroughout time, humans have been terrified and fascinated by the diseases history and circumstance have dropped on them. Some of their responses to those outbreaks are almost too strange to believe in hindsight. Get Well Soon delivers the gruesome, morbid details of some of the worst plagues we’ve suffered as a species, as well as stories of the heroic figures who selflessly fought to ease the suffering of their fellow man. With her signature mix of in-depth research and storytelling, and not a little dark humor, Jennifer Wright explores history’s most gripping and deadly outbreaks, and ultimately looks at the surprising ways they’ve shaped history and humanity for almost as long as anyone can remember",
+            "cover": "/media/covers/GetWellSoon.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Faust",
+            "author": "Johann Wolfgang",
+            "isbn": "9780393972825",
+            "summary": "Goethe’s two-part dramatic work, Faust, based on a traditional theme, and finally completed in 1831, is an exploration of that restless intellectual and emotional urge which found its fullest expression in the European Romantic movement, to which Goethe was an early and major contributor. Part I of the work outlines a pact Faust makes with the devil, Mephistopheles, and encompasses the tragedy of Gretchen, whom Faust seduces. Part II, developed over a long period of Goethe’s later life, reflects Goethe’s own transition from a predominantly Romantic to a wider world-view and explores more extensive themes, including the values of the Classical past, as it moves towards the work’s resolution.",
+            "cover": "/media/covers/Faust.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Of Mice and Men",
+            "author": "John Steinbeck",
+            "isbn": "9780140177398",
+            "summary": "They are an unlikely pair: George is “small and quick and dark of face”; Lennie, a man of tremendous size, has the mind of a young child. Yet they have formed a “family,” clinging together in the face of loneliness and alienation. \nLaborers in California’s dusty vegetable fields, they hustle work when they can, living a hand-to-mouth existence. For George and Lennie have a plan: to own an acre of land and a shack they can call their own. When they land jobs on a ranch in the Salinas Valley, the fulfillment of their dream seems to be within their grasp. But even George cannot guard Lennie from the provocations of a flirtatious woman, nor predict the consequences of Lennie’s unswerving obedience to the things George taught him.",
+            "cover": "/media/covers/MiceMen.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Grapes of Wrath",
+            "author": "John Steinbeck",
+            "isbn": "9780143039433",
+            "summary": "First published in 1939, Steinbeck’s Pulitzer Prize-winning epic of the Great Depression chronicles the Dust Bowl migration of the 1930s and tells the story of one Oklahoma farm family, the Joads—driven from their homestead and forced to travel west to the promised land of California. Out of their trials and their repeated collisions against the hard realities of an America divided into Haves and Have-Nots evolves a drama that is intensely human yet majestic in its scale and moral vision, elemental yet plainspoken, tragic but ultimately stirring in its human dignity. A portrait of the conflict between the powerful and the powerless, of one man’s fierce reaction to injustice, and of one woman’s stoical strength, the novel captures the horrors of the Great Depression and probes into the very nature of equality and justice in America. At once a naturalistic epic, captivity narrative, road novel, and transcendental gospel, Steinbeck’s powerful landmark novel is perhaps the most American of American Classics.",
+            "cover": "/media/covers/GrapesWrath.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Gulliver’s Travels",
+            "author": "Jonathan Swift",
+            "isbn": "9781788493420",
+            "summary": "Gulliver’s Travels is a memorable classic that takes you into the amazing worlds travelled by Lemuel Gulliver. In Lilliput, he is a giant compared to the tiny people there, followed by the reverse in Brobdingnag, where Gulliver finds himself in a country of giants.",
+            "cover": "/media/covers/GulliverTravel.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Twenty Thousand Leagues Under the Sea",
+            "author": "Jules Verne",
+            "isbn": "9781853260315",
+            "summary": "When an unidentified “monster” threatens international shipping, French oceanographer Pierre Aronnax and his unflappable assistant Conseil join an expedition organized by the US Navy to hunt down and destroy the menace. After months of fruitless searching, they finally grapple with their quarry, but Aronnax, Conseil, and the brash Canadian harpooner Ned Land are thrown overboard in the attack, only to find that the “monster” is actually a futuristic submarine, the Nautilus, commanded by a shadowy, mystical, preternaturally imposing man who calls himself Captain Nemo. Thus begins a journey of 20,000 leagues—nearly 50,000 miles—that will take Captain Nemo, his crew, and these three adventurers on a journey of discovery through undersea forests, coral graveyards, miles-deep trenches, and even the sunken ruins of Atlantis",
+            "cover": "/media/covers/TwentyThousandLeaguesUnderSea.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Journey to the Center of the Earth",
+            "author": "Jules Verne",
+            "isbn": "9780141441979",
+            "summary": "An adventurous geology professor chances upon a manuscript in which a 16th-century explorer claims to have found a route to the earth's core. Professor Lidenbrock can't resist the opportunity to investigate, and with his nephew Axel, he sets off across Iceland in the company of Hans Bjelke, a native guide. \nThe expedition descends into an extinct volcano toward a sunless sea, where they encounter a subterranean world of luminous rocks, antediluvian forests, and fantastic marine life — a living past that holds the secrets to the origins of human existence.",
+            "cover": "/media/covers/JourneyCenterEarth.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Around the World in Eighty Days",
+            "author": "Jules Verne",
+            "isbn": "9789916732601",
+            "summary": "One night in the reform club, Phileas Fogg bets his companions that he can travel across the globe in just eighty days. Breaking the well-established routine of his daily life, he immediately sets off for Dover with his astonished valet Passepartout. Passing through exotic lands and dangerous locations, they seize whatever transportation is at hand—whether train or elephant—overcoming set-backs and always racing against the clock",
+            "cover": "/media/covers/AroundWorldEightyDays.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "isbn": "9781400079988",
+            "summary": "War and Peace broadly focuses on Napoleon’s invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men. \nAs Napoleon’s army invades, Tolstoy brilliantly follows characters from diverse backgrounds—peasants and nobility, civilians and soldiers—as they struggle with the problems unique to their era, their history, and their culture. And as the novel progresses, these characters transcend their specificity, becoming some of the most moving—and human—figures in world literature.",
+            "cover": "/media/covers/WarPeace.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Alice’s Adventures in the Wonderland",
+            "author": "Lewis Caroll",
+            "isbn": "9781947844193",
+            "summary": "With the curious, quick-witted Alice at its heart, readers will not only rediscover characters such as the charming White Rabbit, the formidable Queen of Hearts, the Mad Hatter and the grinning Cheshire Cat but will find fresh and wonderful creations of these characters by a true master of his art,; images that will live in our hearts and minds for generations to come.",
+            "cover": "/media/covers/AliceWonderland.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Through the Looking Glass",
+            "author": "Lewis Caroll",
+            "isbn": "9781539996392",
+            "summary": "Follow Alice as she navigates the strange and unpredictable Wonderland and the reverse world behind the Looking-Glass, alongside the Mad Hatter, the Cheshire Cat, the White Rabbit, and the Red Queen. As she faces challenges and impossible puzzles, Alice discovers valuable lessons about courage, creativity, and self-discovery.",
+            "cover": "/media/covers/LookingGlass.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Little Women",
+            "author": "Louisa May Alcott",
+            "isbn": "9780147514011",
+            "summary": "Grown-up Meg, tomboyish Jo, timid Beth, and precocious Amy. The four March sisters couldn't be more different. But with their father away at war, and their mother working to support the family, they have to rely on one another. Whether they're putting on a play, forming a secret society, or celebrating Christmas, there's one thing they can't help wondering: Will Father return home safely?",
+            "cover": "/media/covers/LittleWomen.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Adventures of Huckelberry Finn",
+            "author": "Mark Twain",
+            "isbn": "9781954839434",
+            "summary": "A nineteenth-century boy from a Mississippi River town recounts his adventures as he travels down the river with a runaway slave, encountering a family involved in a feud, two scoundrels pretending to be royalty, and Tom Sawyer's aunt who mistakes him for Tom.",
+            "cover": "/media/covers/HuckelberryFinn.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Adventures of Tom Sawyer",
+            "author": "Mark Twain",
+            "isbn": "9781948132824",
+            "summary": "The Adventures of Tom Sawyer revolves around the youthful adventures of the novel's schoolboy protagonist, Thomas Sawyer, whose reputation precedes him for causing mischief and strife. Tom lives with his Aunt Polly, half-brother Sid, and cousin Mary in the quaint town of St. Petersburg, just off the shore of the Mississippi River. St. Petersburg is described as a typical small-town atmosphere where the Christian faith is predominant, the social network is close-knit, and familiarity resides. \nUnlike his brother Sid, Tom receives 'lickings' from his Aunt Polly; ever the mischief-maker, would rather play hooky than attend school and often sneaks out his bedroom window at night to adventure with his friend, Huckleberry Finn ­ the town's social outcast. Tom, despite his dread of schooling, is extremely clever and would normally get away with his pranks if Sid were not such a 'tattle-tale'. \nAs punishment for skipping school to go swimming, Aunt Polly assigns Tom the chore of whitewashing the fence surrounding the house. In a brilliant scheme, Tom is able to con the neighborhood boys into completing the chore for him, managing to convince them of the joys of whitewashing. At school, Tom is equally as flamboyant, and attracts attention by chasing other boys, yelling, and running around. With his usual antics, Tom attempts to catch the eye of Becky Thatcher, a new girl in town, and persuades her to get 'engaged' by kissing him. But their romance collapses when she learns Tom has been 'engaged' previously to Amy Lawrence. Shortly after Becky shuns him, he accompanies Huckleberry Finn to the graveyard at night, where they witness the murder of Dr. Robinson.",
+            "cover": "/media/covers/TomSawyer.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Prince and the Pauper",
+            "author": "Mark Twain",
+            "isbn": "9780451528353",
+            "summary": "This treasured historical satire, played out in two very different socioeconomic worlds of 16th-century England, centers around the lives of two boys born in London on the same day: Edward, Prince of Wales and Tom Canty, a street beggar. During a chance encounter, the two realize they are identical and, as a lark, decide to exchange clothes and roles--a situation that briefly, but drastically, alters the lives of both youngsters. The Prince, dressed in rags, wanders about the city's boisterous neighborhoods among the lower classes and endures a series of hardships; meanwhile, poor Tom, now living with the royals, is constantly filled with the dread of being discovered for who and what he really is.",
+            "cover": "/media/covers/PrincePauper.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Frankenstein",
+            "author": "Mary Wollstonecraft",
+            "isbn": "9781441342133",
+            "summary": "The story of Victor Frankenstein's terrible creation and the havoc it caused has enthralled generations of readers and inspired countless writers of horror and suspense. Considering the gothic novel's enduring success, it is remarkable that it began merely as a whim of Lord Byron's.",
+            "cover": "/media/covers/Frankenstein.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Rain",
+            "author": "Michael McDowell",
+            "isbn": "9781804996423",
+            "summary": "Even if the years weigh heavily on their shoulders, the Caskey family now enjoy wealth way beyond their wildest dreams. Parties, lavish receptions and social gatherings give a rhythm to their existence, their days spent in carefree abandonment. But the past is not forgotten and a dark presence looms over Perdido, its inhabitants and its rivers.",
+            "cover": "/media/covers/Rain.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The War",
+            "author": "Michael McDowell",
+            "isbn": "9781804996409",
+            "summary": "A new era has begun for the Caskey family. \nElinor’s relentless determination and the years of struggle are finally beginning to bear fruit: old hostilities have faded and the town is ripe for change. The conflict in Europe has brought new blood to Perdido, men arriving from far afield wanting to ingratiate themselves with the powerful family. \nBut tangling with the Caskeys comes at a cost, and soon they must ask themselves how close is too close…",
+            "cover": "/media/covers/War.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Fortune",
+            "author": "Michael McDowell",
+            "isbn": "9781804996416",
+            "summary": "In Perdido, Alabama, the Caskey family have endured; some face death whilst others welcome new life. Unexpected alliances have formed, bitter conflict divides former friends. Hardened by years of experience, Miriam, now head of the family business, is relentless in her pursuit of wealth. And when she makes a surprising discovery beneath their lands, it is not just the Caskey family that benefits, but the whole town. \nBut will this sudden fortune be enough to lay to rest the ghosts of the past? And how long before nature comes to reclaim its debt?",
+            "cover": "/media/covers/Fortune.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The House",
+            "author": "Michael McDowell",
+            "isbn": "9781804996393",
+            "summary": "Perdido, 1928. Torn apart by the continuing tensions between Mary-Love and her daughter-in-law Elinor, the Caskey family must also confront other crises. As the economy plummets and relationships sour, something sinister is prowling the darkest recesses of the Caskey household. Patient, implacable, waiting to catch its next victim in its deadly web…",
+            "cover": "/media/covers/House.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Levee",
+            "author": "Michael McDowell",
+            "isbn": "9781804996386",
+            "summary": "Perdido, Alabama, has scarcely recovered from the floods that devasted the community. Now a scheme to build a levee is dogged by a series of mysterious events: unpredictable currents in the river, worrying disappearances. Meanwhile in the Caskey family, Marie-Love, the matriarch, continues her machinations against Elinor, her strange daughter in law. Plots, unholy alliances, sacrifices - in the struggle between them, nothing is off limits. In Perdido, the changes will be profound; the consequences irreversible.",
+            "cover": "/media/covers/Levee.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Flood",
+            "author": "Michael McDowell",
+            "isbn": "9781804996379",
+            "summary": "As the dark and menacing waters of the local river submerge Perdido, a small town in the south of Alabama, the Caskeys - a family of rich landowners - must confront the tide of damage caused by the flood. Led by Mary-Love, the powerful matriarch, and by Oscar, her devoted son, the family must pick itself back up. But what they haven't anticipated is the sudden appearance of Elinor Dammert - a mysterious but seductive young woman with a troubling past. Her sole ambition appears to be to infiltrate the very heart of the Caskey clan...",
+            "cover": "/media/covers/Flood.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Picture of Dorian Grey",
+            "author": "Oscar Wilde",
+            "isbn": "9780141439570",
+            "summary": "Enthralled by his own exquisite portrait, Dorian Gray exchanges his soul for eternal youth and beauty. Influenced by his friend Lord Henry Wotton, he is drawn into a corrupt double life, indulging his desires in secret while remaining a gentleman in the eyes of polite society. Only his portrait bears the traces of his decadence. The Picture of Dorian Gray was a succès de scandale. Early readers were shocked by its hints at unspeakable sins, and the book was later used as evidence against Wilde at the Old Bailey in 1895.",
+            "cover": "/media/covers/DorianGrey.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Importance of Being Earnest",
+            "author": "Oscar Wilde",
+            "isbn": "9780486264783",
+            "summary": "Cecily Cardew and Gwendolen Fairfax are both in love with the same mythical suitor. Jack Worthing has wooed Gwendolen as Ernest while Algernon has also posed as Ernest to win the heart of Jack's ward, Cecily. When all four arrive at Jack's country home on the same weekend the 'rivals' to fight for Ernest's undivided attention and the 'Ernests' to claim their beloveds pandemonium breaks loose. Only a senile nursemaid and an old, discarded hand-bag can save the day!",
+            "cover": "/media/covers/BeingEarnest.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "isbn": "9781451673319",
+            "summary": "Guy Montag is a fireman. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television “family.” But when he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people didn’t live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television, Montag begins to question everything he has ever known.",
+            "cover": "/media/covers/Fahrenheit.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Charlie and the Chocolate Factory",
+            "author": "Roald Dahl",
+            "isbn": "9780142410318",
+            "summary": "Charlie Bucket's wonderful adventure begins when he finds one of Mr. Willy Wonka's precious Golden Tickets and wins a whole day inside the mysterious chocolate factory. Little does he know the surprises that are in store for him!",
+            "cover": "/media/covers/CharlieChocolateFactory.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Treasure Island",
+            "author": "Robert Louis Stevenson",
+            "isbn": "9781101990322",
+            "summary": "“Fifteen men on a dead man’s chest— \nYo-ho-ho, and a bottle of rum!” \nFor sheer storytelling delight and pure adventure, Treasure Island has never been surpassed. From young Jim Hawkins’s first encounter with the sinister beggar Pew to the climactic battle with the most memorable villain in literature, Long John Silver, this novel has fired readers’ imaginations for generations. A rousing tale of treachery, greed, and daring, Treasure Island continues to enthrall readers of all ages",
+            "cover": "/media/covers/TreasureIsland.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Dr. Jekyll and Mr. Hyde",
+            "author": "Robert Louis Stevenson",
+            "isbn": "9781954839373",
+            "summary": "Robert Louis Stevenson's masterpiece of the duality of good and evil in man's nature sprang from the darkest recesses of his own unconscious—during a nightmare from which his wife awakened him, alerted by his screams. More than a hundred years later, this tale of the mild-mannered Dr. Jekyll and the drug that unleashes his evil, inner persona—the loathsome, twisted Mr. Hyde—has lost none of its ability to shock. Its realistic police-style narrative chillingly relates Jekyll's desperation as Hyde gains control of his soul—and gives voice to our own fears of the violence and evil within us. Written before Freud's naming of the ego and the id, Stevenson's enduring classic demonstrates a remarkable understanding of the personality's inner conflicts—and remains the irresistibly terrifying stuff of our worst nightmares",
+            "cover": "/media/covers/JekyllHyde.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Priory of the Orange Tree",
+            "author": "Samantha Shannon",
+            "isbn": "9781635570304",
+            "summary": "A world divided. \nA queendom without an heir. \nAn ancient enemy awakens. \nThe House of Berethnet has ruled Inys for a thousand years. \nStill unwed, Queen Sabran the Ninth must conceive a daughter to ensure the continuation of her bloodline. But as she clings to her independence, assassins are getting closer to her door. \nEad Duryan is an outsider at court. Though she has converted to the Six Virtues and risen to the position of lady-in-waiting, she will never be truly at home in Inys. As she dutifully goes to the sanctuary each day, Ead keeps a watchful eye on the queen, protecting her with forbidden magic. \nYet even she cannot keep Sabran from harm indefinitely. Dragons are encroaching on Inysh lands for the first time in centuries, the divided East and West refuse to parley, and an age-old force is stirring that no mandate can keep at bay.",
+            "cover": "/media/covers/PrioryOrangeTree.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Day of Fallen Night",
+            "author": "Samantha Shannon",
+            "isbn": "9781639732999",
+            "summary": "Tunuva Melim is a sister of the Priory. For fifty years, she has trained to slay wyrms – but none have appeared since the Nameless One, and the younger generation is starting to question the Priory's purpose. \nTo the north, in the Queendom of Inys, Sabran the Ambitious has married the new King of Hróth, narrowly saving both realms from ruin. Their daughter, Glorian, trails in their shadow – exactly where she wants to be. \nThe dragons of the East have slept for centuries. Dumai has spent her life in a Seiikinese mountain temple, trying to wake the gods from their long slumber. Now someone from her mother's past is coming to upend her fate. \nWhen the Dreadmount erupts, bringing with it an age of terror and violence, these women must find the strength to protect humankind from a devastating threat",
+            "cover": "/media/covers/DayFallenNight.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Great Gatsby",
+            "author": "Scott Fitzgerald",
+            "isbn": "9798351145013",
+            "summary": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan",
+            "cover": "/media/covers/Gatsby.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Red and the Black",
+            "author": "Stendhal",
+            "isbn": "9780140447644",
+            "summary": "Handsome, ambitious Julien Sorel is determined to rise above his humble provincial origins. Soon realizing that success can only be achieved by adopting the subtle code of hypocrisy by which society operates, he begins to achieve advancement through deceit and self-interest. His triumphant career takes him into the heart of glamorous Parisian society, along the way conquering the gentle, married Madame de Rênal, and the haughty Mathilde. But then Julien commits an unexpected, devastating crime - and brings about his own downfall. The Red and the Black is a lively, satirical portrayal of French society after Waterloo, riddled with corruption, greed, and ennui, and Julien - the cold exploiter whose Machiavellian campaign is undercut by his own emotions - is one of the most intriguing characters in European literature.",
+            "cover": "/media/covers/RedBlack.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Carrie",
+            "author": "Stephen King",
+            "isbn": "9780307743664",
+            "summary": "Carrie may be picked on by her classmates but she has a gift. She can move things with her mind. Doors lock. Candles fall. This is her power and her problem. \nTo be invited to Prom Night by Tommy Ross is a dream come true for Carrie — the first step towards social acceptance by her high school colleagues. Until an unexpected cruelty turns her gift into a weapon of terror and destruction that no one will ever forget.",
+            "cover": "/media/covers/Carrie.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Stand",
+            "author": "Stephen King",
+            "isbn": "9780307947307",
+            "summary": "First came the days of the plague. Then came the dreams. Dark dreams that warned of the coming of the dark man. The apostate of death, his worn-down boot heels tramping the night roads. The warlord of the charnel house and Prince of Evil. His time is at hand. His empire grows in the west and the Apocalypse looms. \nFor hundreds of thousands of fans who read The Stand in its original version and wanted more, this new edition is Stephen King's gift. And those who are listening to The Stand for the first time will discover a triumphant and eerily plausible work of the imagination that takes on the issues that will determine our survival.",
+            "cover": "/media/covers/Stand.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Shinning",
+            "author": "Stephen King",
+            "isbn": "9780345806789",
+            "summary": "Jack Torrance’s new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he’ll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote . . . and more sinister. And the only one to notice the strange and terrible forces gathering around the Overlook is Danny Torrance, a uniquely gifted five-year-old.",
+            "cover": "/media/covers/Shinning.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Pet Sematary",
+            "author": "Stephen King",
+            "isbn": "9780743412285",
+            "summary": "When the Creeds move into a beautiful old house in rural Maine, it all seems too good to be true: physician father, beautiful wife, charming little daughter, adorable infant son—and now an idyllic home. As a family, they’ve got it all... right down to the friendly car. \nBut the nearby woods hide a blood-chilling truth—more terrifying than death itself—and hideously more powerful. \nThe Creeds are going to learn that sometimes dead is better.",
+            "cover": "/media/covers/PetSematary.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Art of War",
+            "author": "Sun Tzu",
+            "isbn": "9781599869773",
+            "summary": "Twenty-Five Hundred years ago, Sun Tzu wrote this classic book of military strategy based on Chinese warfare and military thought. Since that time, all levels of military have used the teaching on Sun Tzu to warfare and civilization have adapted these teachings for use in politics, business and everyday life. The Art of War is a book which should be used to gain advantage of opponents in the boardroom and battlefield alike.",
+            "cover": "/media/covers/ArtWar.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Thud!",
+            "author": "Terry Pratchett",
+            "isbn": "9780063374256",
+            "summary": "“Start with Douglas Adams’s comic science fiction ( A Hitchhiker’s Guide to the Galaxy ) and J.R.R. Tolkien’s alternative worlds, mix in James Ellroy’s gritty realism and Jonathan Swift’s unflinching satire and, if you’re lucky, you’ll get something like Terry Pratchett’s Thud !” — Wall Street Journal City Watch Commander Sam Vimes must solve the murder of a prominent dwarf or watch as Discworld is plunged into a bloody civil war in Terry Pratchett’s delightful Discworld satire, a brilliant tale of prejudice, ancient feuds, and tender fatherhood. Long, long ago, in a gods-forsaken hellhole called Koom Valley, trolls and dwarfs met in bloody combat. Centuries later, each side still views the other with simmering animosity that has been heightened of late because of one Grag Hamcrusher. The influential dwarf has been fomenting unrest among a section of Ankh-Morpork’s citizenry—a volatile situation made far worse when the petite provocateur is discovered bashed to death . . . with a troll club lying conveniently nearby. If he doesn’t solve the murder of just one dwarf, Commander Sam Vimes of Ankh-Morpork City Watch is going to see it fought again, right outside his office. But more than one corpse is waiting for Vimes in the eerie, summoning darkness of a labyrinthine mine network being secretly excavated beneath Ankh-Morpork’s streets. With war-drums beating ever louder, Vimes must unravel every clue, outwit every assassin, and brave any darkness to find the solution. And the darkness is following him, pulling him deep into the muck and mire of superstition, hatred, and fear—and perhaps all the way to Koom Valley itself. Until six o’clock every day, when without fail, the Commander goes home to read Where’s My Cow?, with accompanying farmyard noises, to his little boy. Because there are some things you must do. The Discworld novels can be read in any order but Thud! is the 7th book in the City Watch collection and the 34th Discworld book.",
+            "cover": "/media/covers/Thud.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Night Watch",
+            "author": "Terry Pratchett",
+            "isbn": "9780063374249",
+            "summary": "'Night Watch turns out to be an unexpectedly moving novel about sacrifice and responsibility, its final scenes leaving one near tears. . . Terry Pratchett may still be pegged as a comic novelist, but . . . he’s a lot more.' —  Washington Post Book World Getting knocked back in time thirty years, Sam Vines, Commander of the Ankh-Morpork City Watch experiences a day like no other in which past, present, and future collide with hilarious—and poignant—results in this rollicking Discworld adventure from Terry Pratchett. One moment Commander of the City Watch Sam Vimes is chasing a murderer across the rooftops of Ankh-Morpork. The next, he’s lying in the street below, naked—and back in his own tough past thanks to a lightning strike and a group of meddling, time-manipulating monks. It’s a dark Discworld that is all too familiar. Worse, the cop-killing psychopath he’d been pursuing has been transported back with him, and it’s the eve of a deadly street rebellion that took a few good (and not so good) lives. Vimes is determined to do his duty— track down the murderer and change the outcome of the rebellion. By changing history he might just save some worthwhile necks, and steer a novice watchman straight—an impressionable young copper named Sam Vimes. But if he succeeds, Sam knows it could cost him the future—including the job and the family he loves. The Discworld novels can be read in any order but Night Watch is the 6th book in the City Watch collection and the 29 th Discworld book.",
+            "cover": "/media/covers/NightWatch.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Fifth Elephant",
+            "author": "Terry Pratchett",
+            "isbn": "9780063374232",
+            "summary": "“Pratchett cheerfully takes readers on an exuberant tale of mystery and invention. Along the way, he skewers everything from monarchy to fascism, as well as communism and capitalism, oil wealth and ethnic identities, Russian plays, immigration, condoms, and evangelical Christianity—in short, everything worth talking about.” — Publishers Weekly (starred review) Elephants, werewolves, and ruby tights (oh my!) collide in this clever Discworld tale rich in mystery, myth, intrigue, and a dollop of diplomacy from the legendary New York Times bestselling author Terry Pratchett. Everyone knows that the world is flat, and supported on the backs of four elephants. But weren’t there supposed to be five? Indeed there were. So where is the fifth elephant? Commander Sam Vimes of the Ankh-Morpork constabulary is the man to find out. A copper through and through, he’s been “invited” to attend a royal function as a diplomat, ambassador to the mysterious, fat-rich country of Uberwald—complete with ruby tights. Of course where cops go, crime follows. An attempted assassination and a theft soon lead to a desperate chase from the low halls of Discworld royalty to the legendary fat mines of Uberwald, where lard is found in underground seams along with tusks and teeth and other precious ivory artifacts. It’s up to the dauntless Vimes to solve the puzzle of the missing pachyderm. After all, that’s what he does. Only there are monsters on his trail—bright, fast, toothy werewolves. And they’re catching up. The Discworld novels can be read in any order but The Fifth Elephant is the 5th book in the City Watch collection and the 24th Discworld book.",
+            "cover": "/media/covers/FifthElephant.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Last Continent",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373723",
+            "summary": "'If you are unfamiliar with Pratchett’s unique blend of philosophical badinage interspersed with slapstick, you are on the threshold of a mind-expanding opportunity.' — Financial Times Chaos ensues when Discworld’s deliciously hapless wizard Rincewind goes walking about in the Down Under in this wonderfully witty satire from legendary internationally bestselling author Sir Terry Pratchett. There’s big trouble at the Unseen University, Ankh-Morpork’s prestigious and only institute of higher learning. A professor is missing—and the one person who can find him is not only the most bumbling magician the school ever produced, he’s currently stranded in Fourecks, Discworld’s last (and unfinished) continent. The down-under is hot (so hot) and it’s dry (so dry)—though it’s rumored there was once this thing called The Wet, but no one believes that. Practically everything here that’s not poisonous is venomous. Discworld’s most inept wizard and his companion, Luggage, are eager to get home—but first Rincewind has to survive a pushy mystical kangaroo trickster named Scrappy and a mob of Fourecks hooligans determined to hang him. All his problems would be solved if he could just make it rain . . . for (maybe) the first time ever. And if the time-traveling professors from UU working on rescuing him can get to the right millennium . . . The Discworld books can be read in any order, but  The Last Continent  is the sixth book in the Wizards collection (and the 22nd Discworld book).",
+            "cover": "/media/covers/LastContinent.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Hogfather",
+            "author": "Terry Pratchett",
+            "isbn": "9780062276285",
+            "summary": "The twentieth bestseller for the UK's fastest selling author. \nThere are those who believe and those who don't. Through the ages, superstition has had its uses. Nowhere more so than in the Discworld where it's helped to maintain the status quo. Anything that undermines superstition has to be viewed with some caution. There may be consequences, particularly on the last night of the year when the time is turning. When those consequences turn out to be the end of the world, you need to be prepared. You might even want more standing between you and oblivion than a mere slip of a girl -- even if she has looked Death in the face on numerous occasions.",
+            "cover": "/media/covers/Hogfather.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Feet of Clay",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373853",
+            "summary": "“This is fantasy served with a twist of Monty Python, parody that works by never taking itself too seriously.” — Publishers Weekly Murder! Mahem! Bacon sandwiches! People are dying suspiciously in Ankh-Morpork, and Sam Vimes of the City Watch will find the truth. Another brilliant and hilarious Discworld adventure from beloved New York Times bestselling author Terry Pratchett For Commander Sam Vimes, Head of the Ankh-Morpork City Watch, life consists of trouble . . . and more a werewolf with pre-lunar tension, a dwarf with attitude, a golem who’s begun to think for itself. Now he’s got the unusual deaths of three elderly Ankh-Morporkians on his hands. It’s murder in Discworld!—which ordinarily is no big deal. The problem is, the deaths do not bear the clean, efficient marks of the Assassins' Guild; there’s an apparent lack of motive, and there’s no trace of anything alive having been at the crime scene. What Vimes does have are some tracks of white clay and more bothersome “clue” thingies that muck up his investigations. The anger of a fearful populace is already targeting the city’s small community of golems—those mindless, absurdly industrious creatures of baked clay, who can occasionally be found toiling in the city's factories. And certain highly placed personages are using the unrest as an excuse to resurrect a monarchy—which would be bad enough even if their would-be “king” wasn’t as empty-headed as your typical animated pottery. In addition to quieting the restless populace, Vimes has to find out whodunit—and howdunit too. He’s not even sure what they dun. But as soon as he knows what the questions are, he’s going to look for some answers. The Discworld novels can be read in any order, but  Feet of Clay  is the 3rd book in the City Watch collection and the 17th Discworld book.",
+            "cover": "/media/covers/FeetClay.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Lords and Ladies",
+            "author": "Terry Pratchett",
+            "isbn": "9784132621883",
+            "summary": "The fairies are back but this time they don't just want your teeth Granny Weatherwax and her tiny coven are up against real elves It's Midsummer Night No time for dreaming With full supporting cast of dwarfs wizards trolls Morris dancers and one orangutan And lots of heynonnynonny and blood all over the place format: 105 sm h 18 sm",
+            "cover": "/media/covers/LordLadies.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Reaper Man",
+            "author": "Terry Pratchett",
+            "isbn": "9780062237354",
+            "summary": "The eleventh Discworld novel. \n'Death has to happen. That's what bein' alive is all about. You're alive, and then you're dead. It can't just stop happening.' \nBut it can. And it has. So what happens after death is now less of a philosophical question than a question of actual reality. On the disc, as here, they need death. If Death doesn't come for you, then what are you supposed to do in the meantime? You can't have the undead wandering about like lost souls. There's no telling what might happen, particularly when they discover that life really is only for the living.",
+            "cover": "/media/covers/ReaperMan.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Soul Music",
+            "author": "Terry Pratchett",
+            "isbn": "9780062237415",
+            "summary": "The sixteenth Discworld novel. \nThere's no getting away from it. From whichever angle, death is a horrible, inescapable business. But someone's got to do it. So if Death decides to take a well-earned moment to uncover the meaning of life and discover himself in the process, then there is going to be a void of specific dimensions that needs to be occupied, particularly so when there is trouble brewing in Discworld. There aren't too many who are qualified to fill Death's footsteps and it certainly doesn't help the imminent cataclysm that the one person poised between the mortal and the immortal is only sixteen years old.",
+            "cover": "/media/covers/SoulMusic.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Carpe Jugulum",
+            "author": "Terry Pratchett",
+            "isbn": "9780063385634",
+            "summary": "'The novel exudes the curious feel of old-fashioned vampire and Frankenstein legends. . . . Pratchett lampoons everything from Christian superstition to Swiss Army knives here, proving that the fantasy satire of Discworld 'still ate'nt dead.' — Publishers Weekly The twenty-third novel in the Discworld series from New York Times bestselling author Terry Pratchett King Verence, in a fit of enlightened democracy and ebullient goodwill, invites Uberwald's undead, the Magpyrs, into Lancre to celebrate the birth of his daughter. But everyone knows you don't invite vampires into your house - unless you want permanent guests. Once ensconced within the castle, these wine-drinking, garlic-eating, sun-loving modern vampires have no intention of leaving . . . ever. As the Lancre living are about to discover, there's only one way to fight. Go for the throat, or as the vampyres themselves say . . . Carpe Jugulum!",
+            "cover": "/media/covers/CarpeJugulum.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Witches Abroad",
+            "author": "Terry Pratchett",
+            "isbn": "9780061809729",
+            "summary": "Be careful what you wish for... \nOnce upon a time there was a fairy godmother named Desiderata who had a good heart, a wise head, and poor planning skills—which unforunately left the Princess Emberella in the care of her other (not quite so good and wise) godmother when DEATH came for Desiderata. So now it's up to Magrat Garlick, Granny Weatherwax, and Nanny Ogg to hop on broomsticks and make for far-distant Genua to ensure the servant girl doesn't marry the Prince. \nBut the road to Genua is bumpy, and along the way the trio of witches encounters the occasional vampire, werewolf, and falling house (well this is a fairy tale, after all). The trouble really begins once these reluctant foster-godmothers arrive in Genua and must outwit their power-hungry counterpart who'll stop at nothing to achieve a proper 'happy ending'—even if it means destroying a kingdom.",
+            "cover": "/media/covers/WitchesAbroad.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Eric",
+            "author": "Terry Pratchett",
+            "isbn": "9780063375017",
+            "summary": "“Pratchett’s humor is international, satirical, devious, knowing, irreverent, unsparing, and above all, funny.” — Kirkus Reviews Determined to create a wish granting demon, an inept young demonologist instead conjures the Discworld’s most incompetent wizard in this devilishly humorous adventure in Sir Terry Pratchett’s internationally bestselling fantasy series. Discworld’s only demonology hacker, Eric, is about to make life very difficult for the rest of Ankh-Morpork’s denizens. This would-be Faust is very  bad  . . . at his work, that is. All he wants is to fulfill three little to live forever, to be master of the universe, and to have the woman of his dreams fall for him. But Eric’s desires are much greater than his talents. Instead of a powerful demon, he summons the infamous Rincewind, a wizard whose incompetence is rivaled only by Eric’s. As if that wasn’t bad enough, that lovable sharp-toothed travel accessory the Luggage has arrived, too. With friends like these, there’s only one thing Eric wishes for now—that he'd never been born. The Discworld novels can be read in any order but Eric is part of the Wizards series and the 9th Discworld book.",
+            "cover": "/media/covers/Eric.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Sourcery",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373709",
+            "summary": "“Delightful. . . logically illogical as only Terry Pratchett can write.” —Anne McCaffrey Will the most unlikely hero in all of Discworld save the universe once again . . . or has his luck finally run out in this wildly funny installment in Sir Terry Pratchett’s internationally bestselling series, a hilarious mix of magic, mayhem, and Luggage. Once upon a time, there was an eighth son of an eighth son who was, of course, a wizard. As if that wasn’t complicated enough, said wizard then had seven sons. And then he had an eighth son—a wizard squared (that’s all the math, really)—who, of course, was a source of magic, a sourcerer. Unseen University, the most magical establishment on the Discworld, has finally got its the emergence of a wizard more powerful than they’ve ever seen. But be careful what you wish for . . . As the drastic consequences of sourcery begin to unfold, it’s up to one unlikely wizard to save them. Rincewind has survived a string of misadventures, including falling off the edge of the world—which is no mean feat when it’s flying through space on the back of a turtle and held up by four elephants. Now, he must take the University’s most precious artifact, the very embodiment of magic itself, and deliver it halfway across the Disc to prevent a mathematically blessed sourcerer from leading the wizards to dominate all of Discworld. Can Rincewind and his tiny band, including the carnivorous Luggage, stave off the Apocalypse? The Discworld novels can be read in any order, but Sourcery  is the 3rd installment in the Wizards series and the 5th Discworld book.",
+            "cover": "/media/covers/Sourcery.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Color of Magic",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373662",
+            "summary": "“In the history of comic fantasy, Mr. Pratchett has no equals for invention or for range. . . . Those who don’t [know him] can do no better than to buy installment No. 1,  The Color of Magic and read right the way through.”— Wall Street Journal In this first novel in the internationally bestselling Discworld series from legendary New York Times bestselling author Sir Terry Pratchett (and the first in the Wizards collection), the fate of the Discworld depends on the survival of a naïve—and first-ever—sightseer. A writer of brilliant imagination favorably compared to Mark Twain, Kurt Vonnegut, and Douglas Adams, Sir Terry Pratchett created a complex, satirical universe with its own set of cultures and rules, populated with wizards, witches, academics, fairies, policemen, and other creatures both fantastical and remarkably ordinary (including Death himself). Welcome to the Discworld . . . a parallel time and place that sounds and smells very much like our own, but looks completely different—because it’s a flat world sitting on the backs of four elephants who hurtle through space balanced on a giant turtle. In this, the maiden voyage through Terry Pratchett’s ingeniously twisted alternate dimension, the well-meaning but spectacularly inept wizard Rincewind encounters something previously unknown in the a tourist! Twoflower has arrived to take in the sights. Unfortunately, he’s cast his lot with a most inappropriate tour guide—a decision that could result in his becoming not only Discworld’s first visitor . . . but quite possibly, its last. And, of course, he’s brought Luggage along, a companion with feet—and a mind—of its own. And teeth. . . . ",
+            "cover": "/media/covers/ColorMagic.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Last Hero",
+            "author": "Terry Pratchett",
+            "isbn": "9780575073777",
+            "summary": "A Discworld novel fully illustrated in lavish colour throughout its 160 pages, this is an essential part of any Discworld collection. It stars the legendary Cohen. He's been a legend in his own lifetime. He can remember when a hero didn't have to worry about fences and lawyers and civilisation, and when people didn't tell you off for killing dragons. But he can't always remember, these days, where he put his teeth ...So now, with his ancient sword and his new walking stick and his old friends -- and they're very old friends -- Cohen the Barbarian is going on one final quest. He's going to climb the highest mountain in the Discworld and meet his gods. The last hero in the world is going to return what the first hero stole. With a vengeance. That'll mean the end of the world, if no one stops him in time.",
+            "cover": "/media/covers/LastHero.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Equal Rites",
+            "author": "Terry Pratchett",
+            "isbn": "9780063385542",
+            "summary": "'Unadulterated fun. . . witty, frequently hilarious.' — San Francisco Chronicle The third novel in  New York Times  bestselling author Terry Pratchett's Discworld series, a fantasy universe where anything can happen—and usually does. A dying wizard tries to pass his staff on to the eighth son of an eighth son. When it is revealed that the he is a girl named Esk, the news of the female wizard sends the citizens of Discworld into a tail-spin. With their biting satire and limitless imagination, it is easy to understand why 80 million Discworld books have been sold worldwide.  Equal Rites  possesses rich characterizations, a journey of awareness, and even a hint of romance from master storyteller Terry Pratchett.",
+            "cover": "/media/covers/EqualRites.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Unseen Academicals",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373747",
+            "summary": "“Football, food, fashion and wizards collide in Pratchett’s affectionate satire on the foibles of sports and sports fans. . . . The prose crackles with wit and charm, and the sendups of league football, academic posturing, Romeo and Juliet and cheesy sports dramas are razor sharp and hilarious but never cruel. At its heart, this is an intelligent, cheeky love letter to football, its fans and the unifying power of sports.”— Publishers Weekly Football (aka soccer) comes to the ancient city of Ankh-Morpork, upending the wizards of Unseen University—and dividing Discworld—in this wonderfully funny novel in Sir Terry Pratchett’s internationally bestselling series. The wizards at Ankh-Morpork’s Unseen University are renowned for many things—wisdom, magic, teatime—but athletics, not so much. When Lord Vetinari, the city’s benevolent tyrant, strongly suggests to Archchancellor Mustrum Ridcully that the university revive its sports program and field a football team composed of faculty, students, and staff—or lose the funding that pays for their nine daily meals—the wizards of UU find themselves in a quandary. First, they have to understand what makes foot-the-ball so popular with Ankh-Morporkians. Then they have to learn how to play it—and win—without using magic. Of course, the thing about football is that it is never just about football. The Discworld novels can be read in any order but Unseen Academicals is the 7th book in the Wizards series and the 37th Discworld book.",
+            "cover": "/media/covers/UnseenAcademicals.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Men at Arms",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373754",
+            "summary": "“Unadulterated fun.”— San Francisco Chronicle The fate of Ankh-Morpork and the Discworld itself rests on the unlikely shoulders of newly promoted Corporal Carrot and his hapless charges in the City Watch in this wildly wacky Discworld novel from the legendary New York Times bestselling author Terry Pratchett. Corporal Carrot has been promoted and is now in charge of the new recruits guarding Ankh-Morpork from Barbarian Tribes, Miscellaneous Marauders, unlicensed Thieves, and other dangerous Discworld denizens. It’s a big job for an adopted dwarf keeping the likes of young coppers Lance-constable Cuddy (really a dwarf), Lance-constable Detritus (a troll), Lance-constable Angua (a woman) and Corporal Nobbs (disqualified from the human race for shoving) in line. Especially since someone in Ankh-Morpork has been getting dangerous ideas about crowns and legendary swords, and destiny—which points its crooked finger again when an ancient document reveals that Ankh-Morpork has a secret sovereign . . . and his name is Carrot. It’s the beginning of the most awesome epic encounter of all time (or at least all afternoon), in which the fate of a city—indeed of the universe itself!—depends on a young man’s courage, an ancient sword’s magic, and a three-legged poodle’s bladder. The Discworld novels can be read in any order but Men at Arms is the 2nd in the City Watch collection and the 15th Discworld book.",
+            "cover": "MenArms"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Thief of Time",
+            "author": "Terry Pratchett",
+            "isbn": "9780062307392",
+            "summary": "The twenty-sixth Discworld novel from Britain's funniest and bestselling novelist. \nTime is a resource. Everyone knows it has to be managed. \nAnd on Discworld that is the job of the Monks of History, who store it and pump it from the places where it's wasted (like underwater - how much time does a codfish need?) to places like cities, where there's never enough time. \nBut the construction of the world's first truly accurate clock starts a race against, well, time for Lu Tze and his apprentice Lobsang Ludd. Because it will stop time. And that will only be the start of everyone's problems. \nThief of Time comes complete with a full supporting cast of heroes and villains, yetis, martial artists and Ronnie, the fifth horseman of the Apocalypse (who left before they became famous).",
+            "cover": "/media/covers/ThiefTime.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Interesting Times",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373716",
+            "summary": "“Discworld is more complicated and satisfactory than Oz . . . has the energy of The Hitchhiker’s Guide to the Galaxy and the inventiveness of Alice in Wonderland . . . brilliant.” —A. S. Byatt When war, magic, politics, and one deliciously inept wizard collide, zany mayhem ensues in this delightful satire in Sir Terry Pratchett’s internationally bestselling Discworld series. To the fine denizens of Discworld, the phrase “May you live in interesting times” is a curse. No one wishes to hear those words, especially not Rincewind. The distinctly unmagical sorcerer has barely survived more than a few “interesting times” and he isn’t looking to experience any more. But when a request for a “Great Wizzard” arrives in Ankh-Morpork via carrier albatross from the faraway Counterweight Continent, Rincewind is named emissary. The Agatean Empire’s current ruler is on the brink of downfall, and chaos is all but certain to arise in the wake. For some incomprehensible reason, someone believes Rincewind will have a mythic role in the war and the ensuing bloodletting. Cohen the Barbarian and his extremely elderly Silver Horde are already hard at work planning for the looting and pillaging. Anyone can be a hero, but there’s only one Rincewind—and he believes he owes it to the world to keep that one alive for as long as possible. The Discworld novels can be read in any order but Interesting Times is the fifth installment in the Wizards collection (and the 18th Discworld book). ",
+            "cover": "/media/covers/InterestingTimes.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Guards! Guards!",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373761",
+            "summary": "“Patchett demonstrates just how great the distance is between one- and two-joke writers and the comic masters whose work will be read into the next century.” — Locus Magic, mayhem, and a marauding dragon combine for extraordinary fun in this cheeky Discworld novel from New York Times bestselling author Terry Pratchett. Insurrection is in the air in the city of Ankh-Morpork. The Haves and Have-Nots are about to face off. Again. It’s old news to Captain Sam Vimes of the city’s ramshackle Night Watch. But this time, something is different—the Have-Nots have found the key to a dormant, lethal weapon that even they can’t fully control, and they’re about to unleash a campaign of terror on the city. Long believed extinct, a draco nobilis  can now be seen patrolling the skies above Discworld's greatest city. Not only does this unwelcome visitor have a nasty habit of charbroiling everything in its path, but it’s also soon crowned King. Can Vimes, Captain Carrot, and the rest of the Ankh-Morpork City Watch restore order (before it's burned to a crisp)? The Discworld novels can be read in any order but  Guards! Guards!  is the 1st book in the City Watch collection and the 8th Discworld book.",
+            "cover": "/media/covers/Guard.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Mort",
+            "author": "Terry Pratchett",
+            "isbn": "9781473200104",
+            "summary": "It is known as the Discworld. It is a flat planet, supported on the backs of four elephants, who in turn stand on the back of the great turtle A'Tuin as it swims majestically through space. And it is quite possibly the funniest place in all of creation... \nDeath comes to us all. When he came to Mort, he offered him a job. \nAfter being assured that being dead was not compulsory, Mort accepted. However, he soon found that romantic longings did not mix easily with the responsibilities of being Death's apprentice.",
+            "cover": "/media/covers/Mort.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Light Fantastic",
+            "author": "Terry Pratchett",
+            "isbn": "9780063373679",
+            "summary": "“Humorously entertaining. . . subtly thought-provoking. . . . Pratchett’s Discworld books are filled with humor and with magic, but they're rooted in—of all things—real life and cold, hard reason.”— Chicago Tribune Bumbling wizard Rincewind and hapless tourist Twoflower have survived a host of misadventures . . . only to face annihilation as a red star hurtles towards the Discworld in this gloriously funny second installment in Sir Terry Pratchett’s Discworld series (also the second book in the Wizards collection) It’s just one of those days when nothing seems to go right—and a most inopportune time for the first tourist ever to set foot in Discworld—accompanied by the carnivorous Luggage—to extend his already eventful vacation, even if it’s not quite by choice. A monstrous red star is on a direct collision course with the Discworld and the future appears uncertain at best. Discworld needs a hero to save it from total destruction. Unfortunately, it’s got the bumbling Rincewind, still recovering from the trauma of falling off the edge of the world. The alternative couldn’t be much worse. . . . The Discworld novels can be read in any order, but  The Light Fantastic  is the second book in the Wizards collection.",
+            "cover": "/media/covers/LightFantastic.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Wyrd Sisters",
+            "author": "Terry Pratchett",
+            "isbn": "9780063385559",
+            "summary": "Terry Pratchett’s fantasy classic Wyrd Sisters, a novel in the bestselling Discworld series, is the story of Granny Weatherwax, the most highly regarded non-leader a coven of non-social witches could ever have.Generally, these loners don't get involved in anything, mush less royal intrigue. but then there are those times they can't help it. As Granny Weatherwax is about to discover, though, it's a lot harder to stir up trouble in the castle than some theatrical types would have you think. Even when you've got a few unexpected spells up your sleeve.Granny Weatherwax teams with two other witches—Nanny Ogg and Margat Garlick—as an unlikely alliance to save a prince and restore him to the throne of Lancre, in a tale that borrows—or is it parodies—some of William Shakespeare's best-loved works.",
+            "cover": "/media/covers/WyrdSisters.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Other Wind",
+            "author": "Ursula K. Le Guin",
+            "isbn": "9780547722436",
+            "summary": "The final book in Ursula K. Le Guin's must-read Earthsea Cycle. 'The magic of Earthsea is primal; the lessons of Earthsea remain as potent, as wise, and as necessary as anyone could dream.' (Neil Gaiman) The sorcerer Alder fears sleep. The dead are pulling him to them at night. Through him they may free themselves and invade Earthsea. Alder seeks advice from Ged, once Archmage. Ged tells him to go to Tenar, Tehanu, and the young king at Havnor. They are joined by amber-eyed Irian, a fierce dragon able to assume the shape of a woman. The threat can be confronted only in the Immanent Grove on Roke, the holiest place in the world, and there the king, hero, sage, wizard, and dragon make a last stand. In this final book of the Earthsea Cycle, Le Guin combines her magical fantasy with a profoundly human, earthly, humble touch. With stories as perennial and universally beloved as The Chronicles of Narnia and The Lord of The Rings—but also unlike anything but themselves—Ursula K. Le Guin’s Earthsea novels are some of the most acclaimed and awarded works in literature. They have received accolades such as the National Book Award, a Newbery Honor, the Nebula Award, and many more honors, commemorating their enduring place in the hearts and minds of readers and the literary world alike. Join the millions of fantasy readers who have explored these lands. As The Guardian put 'Ursula Le Guin's world of Earthsea is a tangled skein of tiny islands cast on a vast sea. The islands' names pull at my heart like no Roke, Perilane, Osskil . . .'",
+            "cover": "/media/covers/OtherWind.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Tombs of Atuan",
+            "author": "Ursula K. Le Guin",
+            "isbn": "9781442459915",
+            "summary": "One of the Time 100 Best Fantasy Books Of All Time \nThe Newbery Honor–winning second novel in the renowned Earthsea series from Ursula K. LeGuin gets a beautiful new repackage. \nIn this second novel in the Earthsea series, Tenar is chosen as high priestess to the ancient and nameless Powers of the Earth, and everything is taken from her—home, family, possessions, even her name. She is now known only as Arha, the Eaten One, and guards the shadowy, labyrinthine Tombs of Atuan. \nThen a wizard, Ged Sparrowhawk, comes to steal the Tombs’ greatest hidden treasure, the Ring of Erreth-Akbe. Tenar’s duty is to protect the Ring, but Ged possesses the light of magic and tales of a world that Tenar has never known. Will Tenar risk everything to escape from the darkness that has become her domain? \nWith millions of copies sold worldwide, Ursula K. Le Guin’s Earthsea Cycle has earned a treasured place on the shelves of fantasy lovers everywhere, alongside the works of such beloved authors as J.R.R. Tolkien and C.S. Lewis. Now the full Earthsea collection— A Wizard of Earthsea , The Tombs of Atuan , The Farthest Shore , Tehanu , Tales from Earthsea , and The Other Wind —is available with a fresh, modern look that will endear it both to loyal fans and new legions of readers.",
+            "cover": "/media/covers/TombsAtuan.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Farthest Shore",
+            "author": "Ursula K. Le Guin",
+            "isbn": "9781442459939",
+            "summary": "The National Book Award–winning third novel in the renowned Earthsea series from Ursula K. LeGuin gets a beautiful new repackage. \nIn this third book in the Earthsea series, darkness threatens to overtake Earthsea: The world and its wizards are losing their magic. But Ged Sparrohawk—Archmage, wizard, and dragonlord—is determined to discover the source of this devastating loss. \nAided by Enlad’s young Prince Arren, Ged embarks on a treacherous journey that will test their strength and will. Because to restore magic, the two warriors must venture to the farthest reaches of their world—and even beyond the realm of death. \nWith millions of copies sold worldwide, Ursula K. Le Guin’s Earthsea Cycle has earned a treasured place on the shelves of fantasy lovers everywhere, alongside the works of such beloved authors as J.R.R. Tolkien and C.S. Lewis. Now the full Earthsea collection—A Wizard of Earthsea, The Tombs of Atuan, The Farthest Shore, Tehanu, Tales from Earthsea, and The Other Wind—is available with a fresh, modern look that will endear it both to loyal fans and new legions of readers. \nA young prince joins forces with a master wizard on a journey to discover a cause and remedy for the loss of magic in Earthsea.",
+            "cover": "/media/covers/FarthestShore.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Tehanu",
+            "author": "Ursula K. Le Guin",
+            "isbn": "9781442459960",
+            "summary": "In this fourth novel in the Earthsea series, we rejoin the young priestess the Tenar and powerful wizard Ged. Years before, they had helped each other at a time of darkness and danger. Together, they shared an adventure like no other. Tenar has since embraced the simple pleasures of an ordinary life, while Ged mourns the powers lost to him through no choice of his own. \nNow the two must join forces again and help another in need the physically, emotionally scarred child whose own destiny has yet to be revealed.",
+            "cover": "/media/covers/Tehanu.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Wizard of Earthsea",
+            "author": "Ursula K. Le Guin",
+            "isbn": "9780547722023",
+            "summary": "Ged, the greatest sorcerer in all Earthsea, was called Sparrowhawk in his reckless youth. \nHungry for power and knowledge, Sparrowhawk tampered with long-held secrets and loosed a terrible shadow upon the world. This is the tale of his testing, how he mastered the mighty words of power, tamed an ancient dragon, and crossed death's threshold to restore the balance.",
+            "cover": "/media/covers/WizardEarthsea.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Les Miserables",
+            "author": "Victor Hugo",
+            "isbn": "9780451419439",
+            "summary": "Introducing one of the most famous characters in literature, Jean Valjean—the noble peasant imprisoned for stealing a loaf of bread— Les Misérables ranks among the greatest novels of all time. In it, Victor Hugo takes readers deep into the Parisian underworld, immerses them in a battle between good and evil, and carries them to the barricades during the uprising of 1832 with a breathtaking realism that is unsurpassed in modern prose. \nWithin his dramatic story are themes that capture the intellect and the crime and punishment, the relentless persecution of Valjean by Inspector Javert, the desperation of the prostitute Fantine, the amorality of the rogue Thénardier, and the universal desire to escape the prisons of our own minds. Les Misérables gave Victor Hugo a canvas upon which he portrayed his criticism of the French political and judicial systems, but the portrait that resulted is larger than life, epic in scope—an extravagant spectacle that dazzles the senses even as it touches the heart.",
+            "cover": "/media/covers/Miserables.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Hunchback of Notre Dame",
+            "author": "Victor Hugo",
+            "isbn": "9780140443530",
+            "summary": "In the vaulted Gothic towers of Notre-Dame Cathedral lives Quasimodo, the hunchbacked bellringer. Mocked and shunned for his appearance, he is pitied only by Esmerelda, a beautiful gypsy dancer to whom he becomes completely devoted. Esmerelda, however, has also attracted the attention of the sinister archdeacon Claude Frollo, and when she rejects his lecherous approaches, Frollo hatches a plot to destroy her, that only Quasimodo can prevent. Victor Hugo’s sensational, evocative novel brings life to the medieval Paris he loved, and mourns its passing in one of the greatest historical romances of the nineteenth century.",
+            "cover": "/media/covers/HunchbackNotreDame.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Mrs Dalloway",
+            "author": "Virginia Wolf",
+            "isbn": "9780143136132",
+            "summary": "Clarissa Dalloway, elegant and vivacious, is preparing for a party and remembering those she once loved. In another part of London, Septimus Warren Smith is suffering from shell-shock and is on the brink of madness. Smith's day interweaves with that of Clarissa and her friends, their lives converging as the party reaches its glittering climax. Virginia Woolf's masterly novel, in which she perfected the interior monologue, brings past, present, and future together on one momentous day in June 1923.",
+            "cover": "/media/covers/MrsDalloway.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Woman in White",
+            "author": "Wilkie Collins",
+            "isbn": "9781974653119",
+            "summary": "Wilkie Collins's groundbreaking novel, considered one of the first mystery novels in history, and defining the detective genre.",
+            "cover": "/media/covers/WhiteWoman.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Lord of the Flies",
+            "author": "William Golding",
+            "isbn": "9780399501487",
+            "summary": "When a plane crashes on a remote island, a small group of schoolboys are the sole survivors. From the prophetic Simon and virtuous Ralph to the lovable Piggy and brutish Jack, each of the boys attempts to establish control as the reality - and brutal savagery - of their situation sets in. \nThe boys' struggle to find a way of existing in a community with no fixed boundaries invites readers to evaluate the concepts involved in social and political constructs and moral frameworks. Ideas of community, leadership, and the rule of law are called into question as the reader has to consider who has a right to power, why, and what the consequences of the acquisition of power may be. Often compared to Catcher in the Rye, Lord of the Flies also represents a coming-of-age story of innocence lost.",
+            "cover": "/media/covers/LordFlies.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "King Lear",
+            "author": "William Shakespeare",
+            "isbn": "9780743482769",
+            "summary": "Shakespeare’s King Lear challenges us with the magnitude, intensity, and sheer duration of the pain that it represents. Its figures harden their hearts, engage in violence, or try to alleviate the suffering of others. Lear himself rages until his sanity cracks. What, then, keeps bringing us back to King Lear? For all the force of its language, King Lear is almost equally powerful when translated, suggesting that it is the story, in large part, that draws us to the play. \nThe play tells us about families struggling between greed and cruelty, on the one hand, and support and consolation, on the other. Emotions are extreme, magnified to gigantic proportions. We also see old age portrayed in all its vulnerability, pride, and, perhaps, wisdom—one reason this most devastating of Shakespeare’s tragedies is also perhaps his most moving.",
+            "cover": "/media/covers/KingLear.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Hamlet",
+            "author": "William Shakespeare",
+            "isbn": "9781451669411",
+            "summary": "Among Shakespeare's plays, 'Hamlet' is considered by many his masterpiece. Among actors, the role of Hamlet, Prince of Denmark, is considered the jewel in the crown of a triumphant theatrical career. Now Kenneth Branagh plays the leading role and co-directs a brillant ensemble performance. Three generations of legendary leading actors, many of whom first assembled for the Oscar-winning film 'Henry V', gather here to perform the rarely heard complete version of the play. This clear, subtly nuanced, stunning dramatization, presented by The Renaissance Theatre Company in association with 'Bbc' Broadcasting, features such luminaries as Sir John Gielgud, Derek Jacobi, Emma Thompson and Christopher Ravenscroft. It combines a full cast with stirring music and sound effects to bring this magnificent Shakespearen classic vividly to life. Revealing new riches with each listening, this production of 'Hamlet' is an invaluable aid for students, teachers and all true lovers of Shakespeare - a recording to be treasured for decades to come.",
+            "cover": "/media/covers/Hamlet.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Romeo and Juliet",
+            "author": "William Shakespeare",
+            "isbn": "9780486275574",
+            "summary": "One of Shakespeare's most popular and accessible plays, Romeo and Juliet tells the story of two star-crossed lovers and the unhappy fate that befell them as a result of a long and bitter feud between their families. The play contains some of Shakespeare's most beautiful and lyrical love poetry and is perhaps the finest celebration of the joys of young love ever written. This inexpensive edition includes the complete, unabridged text with explanatory footnotes. Ideal for classroom use, it is a wonderful addition to the home library of anyone wanting to savor one of literature's most sublime paeans to love.",
+            "cover": "/media/covers/RomeoJuliet.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Macbeth",
+            "author": "William Shakespeare",
+            "isbn": "9780743477109",
+            "summary": "One night on the heath, the brave and respected general Macbeth encounters three witches who foretell that he will become king of Scotland. At first sceptical, he’s urged on by the ruthless, single-minded ambitions of Lady Macbeth, who suffers none of her husband’s doubt. But seeing the prophecy through to the bloody end leads them both spiralling into paranoia, tyranny, madness, and murder.",
+            "cover": "/media/covers/Macbeth.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "A Midsummer Night's Dream",
+            "author": "William Shakespeare",
+            "isbn": "9781586638481",
+            "summary": "Shakespeare's intertwined love polygons begin to get complicated from the start--Demetrius and Lysander both want Hermia but she only has eyes for Lysander. Bad news is, Hermia's father wants Demetrius for a son-in-law. On the outside is Helena, whose unreturned love burns hot for Demetrius. Hermia and Lysander plan to flee from the city under cover of darkness but are pursued by an enraged Demetrius (who is himself pursued by an enraptured Helena). In the forest, unbeknownst to the mortals, Oberon and Titania (King and Queen of the faeries) are having a spat over a servant boy. The plot twists up when Oberon's head mischief-maker, Puck, runs loose with a flower which causes people to fall in love with the first thing they see upon waking. Throw in a group of labourers preparing a play for the Duke's wedding (one of whom is given a donkey's head and Titania for a lover by Puck) and the complications become fantastically funny.",
+            "cover": "/media/covers/MidsummerNightDream.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Much Ado About Nothing",
+            "author": "William Shakespeare",
+            "isbn": "9780743482752",
+            "summary": "In Much Ado About Nothing, Shakespeare includes two quite different stories of romantic love. Hero and Claudio fall in love almost at first sight, but an outsider, Don John, strikes out at their happiness. Beatrice and Benedick are kept apart by pride and mutual antagonism until others decide to play Cupid.",
+            "cover": "/media/covers/MuchAdoNothing.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Othello",
+            "author": "William Shakespeare",
+            "isbn": "9781501146299",
+            "summary": "In Othello, William Shakespeare creates powerful drama from a marriage between the exotic Moor Othello and the Venetian lady Desdemona that begins with elopement and mutual devotion and ends with jealous rage and death. Shakespeare builds many differences into his hero and heroine, including race, age, and cultural background. Yet most readers and audiences believe the couple’s strong love would overcome these differences were it not for Iago, who sets out to destroy Othello. Iago’s false insinuations about Desdemona’s infidelity draw Othello into his schemes, and Desdemona is subjected to Othello’s horrifying verbal and physical assaults.",
+            "cover": "/media/covers/Othello.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Julius Caesar",
+            "author": "William Shakespeare",
+            "isbn": "9780743482745",
+            "summary": "Shakespeare may have written Julius Caesar as the first of his plays to be performed at the Globe, in 1599. For it, he turned to a key event in Roman history: Caesar’s death at the hands of friends and fellow politicians. Renaissance writers disagreed over the assassination, seeing Brutus, a leading conspirator, as either hero or villain. Shakespeare’s play keeps this debate alive.",
+            "cover": "/media/covers/JuliusCaesar.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "Richard III",
+            "author": "William Shakespeare",
+            "isbn": "9780143130253",
+            "summary": "This is Richard III with a new, modern-spelling text, collated and edited from all existing printings; it uses the First Quarto, the text closest to the play as it would have been staged. It includes passages from Sir Thomas More's 'History of Richard III'; on-page commentary and notes explain meaning, staging, allusions, and much else; and a detailed introduction that considers composition, sources, performances, and changing critical attitudes to the play. This edition also comes illustrated with production photographs and related art, a full index to the introduction and commentary, and has a durable sewn binding for lasting use.",
+            "cover": "/media/covers/RichardIII.jpeg"
+        }
+    },
+    {
+        "model": "Catalog.book",
+        "fields":{
+            "title": "The Merchant of Venice",
+            "author": "William Shakespeare",
+            "isbn": "9780743477567",
+            "summary": "In this lively comedy of love and money in sixteenth-century Venice, Bassanio wants to impress the wealthy heiress Portia but lacks the necessary funds. He turns to his merchant friend, Antonio, who is forced to borrow from Shylock, a Jewish moneylender. When Antonio's business falters, repayment becomes impossible--and by the terms of the loan agreement, Shylock is able to demand a pound of Antonio's flesh. Portia cleverly intervenes, and all ends well (except of course for Shylock).",
+            "cover": "/media/covers/MerchantVenise.jpeg"
         }
     }
 ]
