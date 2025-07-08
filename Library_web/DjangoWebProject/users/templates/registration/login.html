@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{% static 'users/style.css' %}">
+</head>
+<body>
+
+    <!-- Put a banner at the top of the site -->
+    <div id="Banner">
+        <header>
+            <img src="{% static 'users/library_banner.jpg' %}" width=100% height=250px alt="Login page">
+        </header>
+    </div>
+
+    <!-- Add link to the Home and Login page -->
+    <div id='NavBar'>
+        <nav>
+            <ul>
+                <li><a href="{% url 'main:home' %}">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Enter email adress and password -->
+    <div class="center-container">
+        <form action="{% url 'users:login' %}" method="post">
+            {% csrf_token %}
+
+            {% if error %}
+            <p style="color: red;">{{ error }}</p>
+            {% endif %}
+
+            <div class="container">
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter email address" name="email" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

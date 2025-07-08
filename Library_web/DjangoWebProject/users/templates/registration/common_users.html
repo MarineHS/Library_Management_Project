@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{% static 'users/style_users.css' %}">
+</head>
+<body>
+
+    <!-- Put a banner at the top of the site -->
+    <div id="Banner">
+        <header>
+            <img src="{% static 'users/library_banner.jpg' %}" width=100% height=250px alt="Login page">
+        </header>
+    </div>
+
+    <div id='NavBar'>
+        <nav>
+            <ul>
+                <li><a href="/accounts/login/">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Book Borrow Table -->
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Borrow Date</th>
+            <th>Return Date</th>
+        </tr>
+        {% for borrow in borrow_list %}
+        <tr>
+            <td>{{ borrow.isbn.title }}</td>
+            <td>{{ borrow.isbn.author }}</td>
+            <td>{{ borrow.borrow_date }}</td>
+            <td>{{ borrow.return_date }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">No book borrowed.</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <!-- Show number of overdue books -->
+    {% if overdue_books > 0 %}
+    <p style="color: red;">Overdue books: {{ overdue_books }}</p>
+    {% endif %}
+
+</body>
+</html>

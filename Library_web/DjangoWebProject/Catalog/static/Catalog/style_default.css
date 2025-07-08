@@ -1,0 +1,16 @@
+/* remove margin and padding for all elements*/
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* add background color */
+body {
+    background-color: #f2e9d0;
+    margin: 40px;
+}
+
+#Banner {
+    margin: 0 -40px;
+}

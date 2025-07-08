@@ -20,13 +20,15 @@ from django.contrib import admin
 from django.urls import include, path
 from django.conf import settings 
 from django.conf.urls.static import static
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     # Uncomment the next line to enable the admin:
     path('admin/', admin.site.urls),
     # Add application URL
-    path('Catalog/', include('Catalog.urls')),
-    path('accounts/', include('django.contrib.auth.urls')),
+    path('', include('main.urls')), # Home page
+    path('accounts/', include(('users.urls', 'users'), namespace='users')), #login page
+    path('catalog/', include('Catalog.urls')), #catalog page
 
 ] 
 

@@ -1,0 +1,101 @@
+/* remove margin and padding for all elements*/
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* add background color */
+body {
+    background-color: #f2e9d0;
+}
+
+/* custom title */
+#Title {
+    background: #bb5a5a;
+    margin: 0;
+}
+
+#Title h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 50px;
+}
+
+/* custom navigation bar */
+#NavBar {
+    background: #e79e85;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#NavBar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 40px;
+}
+
+#NavBar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#NavBar a:hover {
+    color: darkred;
+}
+
+/* center search bar */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+/* custom highlight */
+#highlight {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#highlight_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#highlight_list li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+}
+
+#highlight_list li h3 { /*Title on two lines and fix images on the same line*/
+    min-height: 10px; 
+    text-align: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+#highlight_list a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#highlight_image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}

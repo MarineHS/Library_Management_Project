@@ -1,5 +1,5 @@
 from django.db import models
-from PIL import ImageOps
+from PIL import Image, ImageOps
 
 # Create Book model
 class Book(models.Model):
@@ -9,6 +9,7 @@ class Book(models.Model):
     available = models.BooleanField(default = True)
     summary = models.TextField()
     cover = models.ImageField(upload_to='covers/', null=True, blank=True)
+    book_of_the_month = models.BooleanField(default=False)
 
     #Override __str__ function
     def __str__(self):

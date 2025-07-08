@@ -1,0 +1,69 @@
+/* remove margin and padding for all elements*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* add background color */
+body {
+    background-color: #f2e9d0;
+}
+
+/* custom title */
+#Title {
+    background: #bb5a5a;
+    margin: 0;
+}
+
+#Title h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 50px;
+}
+
+/* custom navigation bar */
+#NavBar {
+    background: #e79e85;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#NavBar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 40px;
+}
+
+#NavBar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#NavBar a:hover {
+    color: darkred;
+}
+
+/* add background color for oppening hours */
+#Hours {
+    background: #eaceb4;
+    float: left;
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 300px 200px;
+    padding: 10px;
+}
+
+.table-title {
+    font-size: 20px;
+    font-weight: bold
+}
+
+/* custom activities section */
+#Activities {
+    float: left;
+    margin-left: 5%;
+    width: 400px;
+}

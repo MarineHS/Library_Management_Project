@@ -1,0 +1,72 @@
+/* add background color */
+body {
+    background-color: #f2e9d0;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Custom NavBar */
+#NavBar {
+    background: #e79e85;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#NavBar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 40px;
+}
+
+#NavBar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#NavBar a:hover {
+    color: darkred;
+}
+
+/* custom input style */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* custom input form and center*/
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+/* custom button */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}

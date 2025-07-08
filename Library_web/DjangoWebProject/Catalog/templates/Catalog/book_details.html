@@ -1,18 +1,31 @@
+{% load static %}
 <!DOCTYPE html>
 
-<html>
+<html lang="en-GB" dir="ltr">
 <head>
+    <meta charset="UTF-8">
     <title>{{ book.title }} - Details</title>
+    <link rel="stylesheet" href="{% static 'Catalog/style_default.css' %}">
 </head>
+
 <body>
+
+    <!-- Put a banner at the top of the site -->
+    <div id="Banner">
+        <header>
+            <img src="{% static 'Catalog/library_banner.jpg' %}" width=100% height=250px>
+        </header>
+    </div>
+
     <h1>{{ book.title }}</h1>
-    <p><strong>Author:</strong> {{ book.author }}</p>
-    <p><strong>ISBN:</strong> {{ book.isbn }}</p>
-    <p><strong>Summary:</strong> {{ book.summary }}</p>
 
     {% if book.cover %}
-    <img src="{{ book.cover.url }}" alt="Cover image of {{ book.title }}">
+    <img src="{{ book.cover.url }}" alt="{{ book.title }}">
     {% endif %}
+
+    <p><strong>Author:</strong> {{ book.author }}</p>
+    <p><strong>ISBN:</strong> {{ book.isbn }}</p>
+    <p><strong>Summary:</strong> <br> {{ book.summary }}</p>
 
     <p>
         <strong>Status:</strong>
@@ -23,6 +36,6 @@
         {% endif %}
     </p>
 
-    <a href="{% url 'Catalog:book_search' %}">Back to Search</a>
+    <a href="{% url 'Catalog:catalog_home' %}">Back to Search</a>
 </body>
 </html>

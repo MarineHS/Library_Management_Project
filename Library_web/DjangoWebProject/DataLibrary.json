@@ -7,7 +7,7 @@
             "last_name": "Dupont",
             "date_birth": "2011-01-09",
             "email": "emma.dupont@mail.com",
-            "password": "pbkdf2_sha256$600000$QJ2ilkcePWqimCOQfiBJCK$lhIs5BtaTCEdUgTyHdr8fPf9PLpybpJ+C6VpMq6GcgA="
+            "password": "ppbkdf2_sha256$600000$3DVr7qI6nYKXlEaL70qYL6$zm/T2up3UBFirgY54+9E9AtBRQ9QcSwhDgmwejpneUs="
         }
     },
     {
@@ -18,7 +18,7 @@
             "last_name": "Moreau",
             "date_birth": "1999-10-04",
             "email": "louis.moreau@mail.com",
-            "password": "pbkdf2_sha256$600000$0pFlRTDuP180MYkZVHHFzM$ckk4Qb2Ok6vTWLnNFsovO+irpkXPe56AauZqaLsEmk4="
+            "password": "pbkdf2_sha256$600000$oZTYOxmw6LMbnJ42M8Av3r$7JRw8IlkFIM+Ko/FlT/VmDEyxT++ktDzazMSuVUBm1M="
         }
     },
     {
@@ -29,7 +29,7 @@
             "last_name": "Lefevre",
             "date_birth": "1975-06-07",
             "email": "camille.lefevre@mail.com",
-            "password": "pbkdf2_sha256$600000$h54WKa7MPo3CBs7aZuXDve$hTMvgS9pc7yL2FnQvR8q/oS8ey5u1PyhDyXxbqoCJqE="
+            "password": "pbkdf2_sha256$600000$5EPeUMsnECxIaU69Xmt42v$u+1BP3abOR/sRQ0Nb6VKh+mViTII0F52YXGPLN4OeyI="
         }
     },
     {
@@ -40,7 +40,7 @@
             "last_name": "Carpentier",
             "date_birth": "1996-01-08",
             "email": "nicolas.carpentier@mail.com",
-            "password": "pbkdf2_sha256$600000$QV9FUo8XqpdmgaUf1tZ8XQ$zvtkH6OzPnQIQKBTKEDG7ADo8Ue2byBb8/TElAYwlZQ=",
+            "password": "pbkdf2_sha256$600000$ucy8KIQZfrOJ2xeMPUd32T$uTWjwp5AECUTIaCojqOx8v0RDclA2dBSjh/U6aCmW7Q=",
             "is_staff": true
         }
     },

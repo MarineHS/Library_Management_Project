@@ -1,0 +1,37 @@
+/* add background color */
+body {
+    background-color: #f2e9d0;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Custom NavBar */
+#NavBar {
+    background: #e79e85;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#NavBar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 40px;
+}
+
+#NavBar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#NavBar a:hover {
+    color: darkred;
+}
+
+/*Custom table*/
+table, th, td {
+    border: 1px solid;
+    margin: 0px auto;
+}
+

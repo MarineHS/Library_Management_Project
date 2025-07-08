@@ -40,7 +40,9 @@ INSTALLED_APPS = [
 
     #Added Apps
     'Catalog.apps.CatalogConfig',
-    'users.apps.UsersConfig'
+    'users.apps.UsersConfig',
+    'management.apps.managementConfig',
+    'main.apps.mainConfig',
 ]
 
 # Middleware framework
@@ -63,7 +65,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'users', 'templates')
+            os.path.join(BASE_DIR, 'users', 'templates'),
+            os.path.join(BASE_DIR, 'main', 'templates'),
+            os.path.join(BASE_DIR, 'Catalog', 'templates')
             ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -117,13 +121,21 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'main', 'static'),]
 
 # Add media file for cover image
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR,)
 
 # Add CustomUser for authentification
 AUTH_USER_MODEL = 'users.CustomUser'
+AUTHENTICATION_BACKENDS = ['users.backends.EmailBackend',
+                           'django.contrib.auth.backends.ModelBackend']
 
 # Create Primary Key when not defined
 DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
+
+# Add login url
+LOGIN_URL = 'users:login'
+# Add logout url
+LOGOUT_REDIRECT_URL = '/accounts/login/'
