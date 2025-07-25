@@ -3,7 +3,7 @@
 ## Project Overview
 
 The site is divided into three main sections:
-- **the home page**. Display the library's oppening hours and a list of available activities
+- **the home page**. Display the library's opening hours and a list of available activities
 - **the catalog page**. Features a search bar  to find books by title or author; and a highlight section showcasing the books of the month.
 - **the login page**. Allows both users and admin to log into their account using their email address.
 
@@ -19,11 +19,11 @@ This app contains the templates for the home page.
 
 **The catalog app**
 
-The catalog app is used to manage the library’s book collection and includes the search functionality.
+The catalog app is used to manage the library’s book collection and includes a search functionality.
 
 Each book is identified by its ISBN. Additional information such as the title, author, summary and book cover can be added. Once a book is created, it is automatically marked as available for borrowing. It can also be flagged as featured to appear in the highlight section.
 
-When a user search for a book (or an author), the app returns a list of matching results. The user can then click on a specific book to view its detailed information.
+When a user searches for a book (or an author), the app returns a list of matching results. The user can then click on a specific book to view its detailed information.
 
 **The management app**
 
@@ -31,7 +31,7 @@ This app handles the borrowing and returning of books. It updates book availabil
 
 **The user app**
 
-The user app manages both basic and admin users which are identified by their mail address.
+The user app manages both basic and admin users who are identified by their email address.
 
 *Basic users*
 
@@ -46,19 +46,19 @@ Admin users can manage (add, remove, update) the books and users databases. They
 
 **Requirements**
 
-The website was developped with under Python version 3.8.1. All the following commands are meant to be executed from a terminal. Before launching the site, make sure to create and activate a virtual environment and install the required packages:
+The website was developed under Python version 3.8.1. All the following commands are meant to be executed from a terminal. Before launching the site, make sure to create and activate a virtual environment and install the required packages:
 
 ```python
 # Activate environnement
 .\env\Scripts\activate
 
-# Doanwload required packages
+# Download required packages
 pip install -r requirements.txt
 ```
 
 **Load database**
 
-The file *DataLibrary.json* provides a sample catalog of books and users that can be used as test.
+The file *DataLibrary.json* provides a sample catalog of books and users that can be used as a test.
 
 ```python
 # Migrate the models
@@ -71,15 +71,15 @@ python manage.py loaddata DataLibrary.json
 
 **Navigating the website**
 
-To run the website loacally:
+To run the website locally:
 
 ```python
 python manage.py runserver
 ```
 
-This will give you an url (ex: http://127.0.0.1:8000/) that you can open in your browser. You'll be able to navigate the site and even log in as different users (I think Louis Moreau needs to check his account. He has an overdue book!).
+This will give you a url (ex: http://127.0.0.1:8000/) that you can open in your browser. You'll be able to navigate the site and even log in as different users (I think Louis Moreau needs to check his account. He has an overdue book!).
 
-To log in as a user, user their email in the format firstname.lastname@mail.com (ex: louis.moreau@mail.com). The password follows the format DjangoFirstnameDatebirth (ex: DjangoLouis1999).
+To log in as a user, using their email in the format firstname.lastname@mail.com (ex: louis.moreau@mail.com). The password follows the format DjangoFirstnameDatebirth (ex: DjangoLouis1999).
 
 :warning: To access the admin interface, you can:
 - give permissions to an existing user. Here is how to give stall permissions to Nicolas Carpentier. 
