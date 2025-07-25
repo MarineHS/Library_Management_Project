@@ -3,7 +3,7 @@
 When we first built our library project, it was clear that initialising the library each time was time-consuming. Therefore, we decided to create a database to store all books and user information. This allows us to update the database using SQL queries (to borrow and return books) or through a Python script.
 
 ## Requirements
-For the database, I used **SQL Server Managament Studio (SSMS) 20**.
+For the database, I used **SQL Server Management Studio (SSMS) 20**.
 
 ## :file_cabinet: The database
 
@@ -66,7 +66,7 @@ Once the database is created, you can get an overview of the tables in SSMS by g
 Now that the database is created, you can open the second script, which contains various queries useful for managing the library. The queries unable to:
 
 ### :broom: Data Cleaning & Integrity
-- Find missing data and update them
+- Find missing data and update it
 - Identify duplicated books and remove them
 
 ### :bar_chart: Library Management
@@ -80,4 +80,4 @@ Now that the database is created, you can open the second script, which contains
 - List the books borrowed by a specific user
 - List overdue books
 
-Feel free to test each query independently and modify them according to your needs.
+Feel free to test each query independently and modify it according to your needs.
