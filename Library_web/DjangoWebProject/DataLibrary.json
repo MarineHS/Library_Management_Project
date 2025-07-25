@@ -7,7 +7,7 @@
             "last_name": "Dupont",
             "date_birth": "2011-01-09",
             "email": "emma.dupont@mail.com",
-            "password": "ppbkdf2_sha256$600000$3DVr7qI6nYKXlEaL70qYL6$zm/T2up3UBFirgY54+9E9AtBRQ9QcSwhDgmwejpneUs="
+            "password": "pbkdf2_sha256$600000$4usARViUXo4DDBUKP1hYvw$dJWt8m6UA735tnnYeCWgENWwdBvCHPpsADAb9PAqjfk="
         }
     },
     {
@@ -181,7 +181,8 @@
             "author": "Arthur Conan Doyle",
             "isbn": "9781607102113",
             "summary": "There is one literary detective who stands above all others, whose powers of deduction are known the world over, whose influence can still be felt in today's most modern whodunits. Who is it, you ask? Why, it's elementary! Sherlock Holmes, the famous gumshoe of 221B Baker Street. ",
-            "cover": "/media/covers/SherlockHolmes.jpeg"
+            "cover": "/media/covers/SherlockHolmes.jpeg",
+            "book_of_the_month": true
         }
     },
     {
@@ -191,7 +192,8 @@
             "author": "Arthur Conan Doyle",
             "isbn": "9780451528018",
             "summary": "In this, one of the most famous of Doyle's mysteries, the tale of an ancient curse and a savage ghostly hound comes frighteningly to life. The gray towers of Baskerville Hall and the wild open country of Dartmoor will haunt the reader as Holmes and Watson seek to unravel the many secrets of the misty English bogs.",
-            "cover": "/media/covers/HoundBaskervilles.jpeg"
+            "cover": "/media/covers/HoundBaskervilles.jpeg",
+            "book_of_the_month": true
         }
     },
     {
@@ -201,7 +203,8 @@
             "author": "Arthur Conan Doyle",
             "isbn": "9798372793774",
             "summary": "Our first meeting with Sherlock Holmes. And John Watson's too! They meet at the start of this volume, and the young doctor is astonished by Holmes' many idiosyncrasies, including his talents on the violin. \nBut it's not long before Sherlock Holmes, with Watson in tow, is working with Scotland Yard investigating the murder of two Americans whose deaths have some mysterious connection to sinister groups gathering power in both Britain and America. \nHere's where it all began. 'A Study in Scarlet.' Meet Sherlock Holmes, one of the world's leading consulting detectives - fictional of course!",
-            "cover": "/media/covers/StudyScarlet.jpeg"
+            "cover": "/media/covers/StudyScarlet.jpeg",
+            "book_of_the_month": true
         }
     },
     {
@@ -211,7 +214,8 @@
             "author": "Arthur Conan Doyle",
             "isbn": "9781482741674",
             "summary": "A dense yellow miasma swirls in the streets of London as Sherlock Holmes and Dr Watson accompany a beautiful young woman to a sinister assignation. \nFor Mary Marston has received several large pearls - one a year for the last six years - and now a mystery letter telling her she is a wronged woman. If she would seek justice she is to meet her unknown benefactor, bringing with her two companions. \nBut unbeknownst to them all, others stalk London's fog-enshrouded streets: a one-legged ruffian with revenge on his mind - and his companion, who places no value on human life...",
-            "cover": "/media/covers/SignFour.jpeg"
+            "cover": "/media/covers/SignFour.jpeg",
+            "book_of_the_month": true
         }
     },
     {
@@ -221,7 +225,8 @@
             "author": "Arthur Conan Doyle",
             "isbn": "9781853260582",
             "summary": "After Sherlock Holmes' apparently fatal encounter with the sinister Professor Moriarty at the Reichenbach Falls, the great detective reappears, to the delight of the faithful Dr Watson in The Adventures of the Empty House.",
-            "cover": "/media/covers/ReturnSherlockHolmes.jpeg"
+            "cover": "/media/covers/ReturnSherlockHolmes.jpeg",
+            "book_of_the_month": true
         }
     },
     {
@@ -1522,6 +1527,15 @@
             "isbn": "9780743477567",
             "summary": "In this lively comedy of love and money in sixteenth-century Venice, Bassanio wants to impress the wealthy heiress Portia but lacks the necessary funds. He turns to his merchant friend, Antonio, who is forced to borrow from Shylock, a Jewish moneylender. When Antonio's business falters, repayment becomes impossible--and by the terms of the loan agreement, Shylock is able to demand a pound of Antonio's flesh. Portia cleverly intervenes, and all ends well (except of course for Shylock).",
             "cover": "/media/covers/MerchantVenise.jpeg"
+        }
+    },
+    {
+        "model": "management.BorrowBook",
+        "fields":{
+            "isbn": "9780062073501",
+            "user": 2,
+            "borrow_date": "2025-01-13",
+            "return_date": "2025-02-04"
         }
     }
 ]

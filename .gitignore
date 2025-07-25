@@ -4,3 +4,5 @@
 **/*.user
 **/env/
 **/DjangoWebProject/db.sqlite3
+**/obj
+**/static
