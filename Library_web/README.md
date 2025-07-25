@@ -43,7 +43,69 @@ Admin users can manage (add, remove, update) the books and users databases. They
 
 ## Getting Started
 
-Database available (books and some users with password*) need to be uploaded
-\* how we got the passwords
-Need to give access to admin
-run with manage.py
+
+**Requirements**
+
+The website was developped with under Python version 3.8.1. All the following commands are meant to be executed from a terminal. Before launching the site, make sure to create and activate a virtual environment and install the required packages:
+
+```python
+# Activate environnement
+.\env\Scripts\activate
+
+# Doanwload required packages
+pip install -r requirements.txt
+```
+
+**Load database**
+
+The file *DataLibrary.json* provides a sample catalog of books and users that can be used as test.
+
+```python
+# Migrate the models
+python manage.py makemigrations
+python manage.py migrate
+
+# Load database
+python manage.py loaddata DataLibrary.json
+```
+
+**Navigating the website**
+
+To run the website loacally:
+
+```python
+python manage.py runserver
+```
+
+This will give you an url (ex: http://127.0.0.1:8000/) that you can open in your browser. You'll be able to navigate the site and even log in as different users (I think Louis Moreau needs to check his account. He has an overdue book!).
+
+To log in as a user, user their email in the format firstname.lastname@mail.com (ex: louis.moreau@mail.com). The password follows the format DjangoFirstnameDatebirth (ex: DjangoLouis1999).
+
+:warning: To access the admin interface, you can:
+- give permissions to an existing user. Here is how to give stall permissions to Nicolas Carpentier. 
+
+```python
+# Enter Django shell
+python .\manage.py shell
+
+#Inside the shell
+# Import libraries
+from django.contrib.auth.models import User
+from django.contrib.auth.models import Permission
+
+# Select admin
+user = CustomUser.objects.get(email="nicolas.carpentier@mail.com")
+
+# Give admin permissions
+perms = ['Catalog.view_book', 'users.change_customuser', 'Catalog.add_book', 'users.view_customuser', 'management.view_borrowbook', 'Catalog.change_book', 'users.add_customuser', 'management.add_borrowbook', 'management.change_borrowbook']
+
+for codename in perms:
+    permission = Permission.objects.get(codename=codename)
+    user.user_permissions.add(permission)
+```
+
+- create a superuser and follow the prompts to create a full admin account with all permissions
+
+```python
+python .\manage.py createsuperuser
+```
