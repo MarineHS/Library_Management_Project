@@ -17,8 +17,8 @@ This folder contains a Python script implementing the basic operations of the li
 
 - **`Library_SQL`** 
 
-As the initial Python version required data to be reloaded each it was used, an SQL database was introduce to store book and user information permanently.
+As the initial Python version required data to be reloaded each time it was used, an SQL database was introduced to store book and user information permanently.
 
 - **`Library_web`**
 
-Finally, to make the system more user-friendly and realistic, a web interface was developped using Django. As this was my first experience with Django, HTML and CSS, the features and the design of this website are simple.
+Finally, to make the system more user-friendly and realistic, a web interface was developed using Django. As this was my first experience with Django, HTML and CSS, the features and the design of this website are simple.
